@@ -1,0 +1,55 @@
+{
+  "name": "IOSAppLogicFramework",
+  "version": "1.0.0",
+  "summary": "IOSAppLogicFramework contains app logic for preload.",
+  "description": "A short description of IOSAppLogicFramework. AppLogic",
+  "homepage": "https://github.com/arrchaos",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Илья Федоров": "ilya.fedorov.1907@gmail.com"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source": {
+    "git": "https://github.com/arrchaos/iosAppLogic.git",
+    "tag": "main"
+  },
+  "requires_arc": true,
+  "source_files": "Classes/**/*.swift",
+  "exclude_files": "Classes/Exclude",
+  "static_framework": true,
+  "dependencies": {
+    "FirebaseCore": [
+
+    ],
+    "FirebaseAnalytics": [
+
+    ],
+    "FirebaseCrashlytics": [
+
+    ],
+    "FirebaseRemoteConfig": [
+
+    ],
+    "FirebaseRemoteConfigSwift": [
+
+    ],
+    "OneSignalXCFramework": [
+
+    ],
+    "AppsFlyerFramework": [
+
+    ],
+    "FBSDKCoreKit": [
+      "= 16.0.0"
+    ],
+    "TikTokOpenSDK": [
+      "= 5.0.14"
+    ]
+  },
+  "frameworks": "FBSDKCoreKit"
+}

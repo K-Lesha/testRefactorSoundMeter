@@ -1,0 +1,6 @@
+framework module IOSAppLogicFramework {
+  umbrella header "IOSAppLogicFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
