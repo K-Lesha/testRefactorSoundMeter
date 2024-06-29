@@ -73,9 +73,16 @@ extension RecordsViewController: UITableViewDelegate, UITableViewDataSource {
         
         let dbItem = dbDataValues[indexPath.row]
         
-        cell.minimumLabel.text = "Minimum: \(dbItem.minimum)dB"
-        cell.maximumLabel.text = "Maximum: \(dbItem.maximum)dB"
-        cell.averagelLabel.text = "Average: \(dbItem.average)dB"
+        
+        
+        cell.minimumLabel.text = "Mínimo: \(dbItem.minimum)dB"
+        cell.maximumLabel.text = "Máximo: \(dbItem.maximum)dB"
+        cell.averagelLabel.text = "Promedio: \(dbItem.average)dB"
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "es_ES")
+        dateFormatter.dateStyle = .medium
+
         cell.datelabel.text = dbItem.currentDate
         
         cell.minimumProgressView.progress = Double(dbItem.minimum)/100

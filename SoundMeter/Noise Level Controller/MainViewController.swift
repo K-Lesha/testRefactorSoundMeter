@@ -70,15 +70,16 @@ class MainViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        self.premiumView.isHidden = true
+//        self.premiumView.isHidden = true
     }
     
     func showSuccessAlert() {
-        let alert = MyAlertViewController(
-            title: "Well done!",
-            message: "You have successfully added a noise level record",
-            imageName: "success-image")
         
+        let alert = MyAlertViewController(
+            title: "¡Bien hecho!",
+            message: "Has agregado con éxito un registro de nivel de ruido",
+            imageName: "success-image")
+
         alert.addAction(title: "OK", style: .default)
         present(alert, animated: true, completion: nil)
     }
@@ -95,15 +96,15 @@ class MainViewController: UIViewController {
         if detectStatus <= 70 {
             dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(0.3)
             //dbResultLabel.text = "Normal conversation"
-            dbTrackerView.placeholder = "Quite audible"
+            dbTrackerView.placeholder = "Bastante audible"
         } else if detectStatus >= 70 && detectStatus <= 85 {
             dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(0.7)
             //dbResultLabel.text = "City traffic (inside the car)"
-            dbTrackerView.placeholder = "Noisy"
+            dbTrackerView.placeholder = "Ruidoso"
         } else if detectStatus >= 85 {
             dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(1)
             //dbResultLabel.text = "Gas-powered lawnmowers\nleaf blowers"
-            dbTrackerView.placeholder = "Extremely noisy"
+            dbTrackerView.placeholder = "Extremadamente ruidoso"
         }
         
         if dbTrackerView.value > 0 {
@@ -132,6 +133,7 @@ class MainViewController: UIViewController {
         let formatter = DateFormatter()
         formatter.timeZone = TimeZone.current
         formatter.dateFormat = "dd, MMMM"
+        formatter.locale = Locale(identifier: "es_ES")
         let dateString = formatter.string(from: now)
         
         let dbItem = SoundData(context: self.managedObjextContext)
@@ -169,12 +171,12 @@ class MainViewController: UIViewController {
 
         recordButton.layer.cornerRadius = recordButton.frame.height/2
         recordButton.layer.masksToBounds = true
-        premiumView.layer.cornerRadius = premiumView.frame.height/2
-        premiumView.layer.masksToBounds = true
-        
-        premiumButton.layer.cornerRadius = premiumButton.frame.height/2
-        premiumButton.layer.masksToBounds = true
-        
+//        premiumView.layer.cornerRadius = premiumView.frame.height/2
+//        premiumView.layer.masksToBounds = true
+//        
+//        premiumButton.layer.cornerRadius = premiumButton.frame.height/2
+//        premiumButton.layer.masksToBounds = true
+//        
         if #available(iOS 13.0, *) {
             overrideUserInterfaceStyle = .light
         }

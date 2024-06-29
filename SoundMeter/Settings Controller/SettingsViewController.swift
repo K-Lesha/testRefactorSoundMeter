@@ -88,9 +88,11 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
 //        let currentCell = tableView.cellForRow(at: indexPath)! as! SettingsTableCell
 
         if indexPath.row == 0 {
-            rateApp()
-        } else if indexPath.row == 1 {
             showMailComposer()
+
+        } else if indexPath.row == 1 {
+            rateApp()
+
         } else if indexPath.row == 2 {
             if let url = URL(string: privacyUrl) {
                 UIApplication.shared.open(url)
