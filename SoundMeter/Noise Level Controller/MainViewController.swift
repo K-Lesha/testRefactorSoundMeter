@@ -93,15 +93,15 @@ class MainViewController: UIViewController {
         let detectStatus = dbTrackerView.value
         
         if detectStatus <= 70 {
-            dbTrackerView.fillPathColor = .systemIndigo.withAlphaComponent(0.3)
+            dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(0.3)
             //dbResultLabel.text = "Normal conversation"
             dbTrackerView.placeholder = "Quite audible"
         } else if detectStatus >= 70 && detectStatus <= 85 {
-            dbTrackerView.fillPathColor = .systemIndigo.withAlphaComponent(0.7)
+            dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(0.7)
             //dbResultLabel.text = "City traffic (inside the car)"
             dbTrackerView.placeholder = "Noisy"
         } else if detectStatus >= 85 {
-            dbTrackerView.fillPathColor = .systemIndigo.withAlphaComponent(1)
+            dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(1)
             //dbResultLabel.text = "Gas-powered lawnmowers\nleaf blowers"
             dbTrackerView.placeholder = "Extremely noisy"
         }
@@ -159,17 +159,16 @@ class MainViewController: UIViewController {
         
         dbTrackerView.unit = " dB"
         dbTrackerView.placeholderColor = .black
-        dbTrackerView.placeholderFont = UIFont.systemFont(ofSize: 16, weight: .regular)
-        dbTrackerView.unitColor = .systemIndigo
+        dbTrackerView.placeholderFont = UIFont(name: "Menlo", size: 16) ?? .systemFont(ofSize: 16)
+        dbTrackerView.unitColor = .systemGreen
         dbTrackerView.blankPathColor = .systemGray.withAlphaComponent(0.4)
-        dbTrackerView.indicatorColor = .systemIndigo
+        dbTrackerView.indicatorColor = .systemGreen
         dbTrackerView.customControlButtonVisible = false
-        dbTrackerView.unitIndicatorFont = UIFont.systemFont(ofSize: 0.1, weight: .medium)
-        dbTrackerView.unitFont = UIFont.systemFont(ofSize: 67)
-        
+        dbTrackerView.unitIndicatorFont = UIFont(name: "Menlo", size: 0.1)  ?? .systemFont(ofSize: 0.1)
+        dbTrackerView.unitFont = UIFont(name: "Menlo", size: 67)  ?? .systemFont(ofSize: 67)
+
         recordButton.layer.cornerRadius = recordButton.frame.height/2
         recordButton.layer.masksToBounds = true
-        
         premiumView.layer.cornerRadius = premiumView.frame.height/2
         premiumView.layer.masksToBounds = true
         

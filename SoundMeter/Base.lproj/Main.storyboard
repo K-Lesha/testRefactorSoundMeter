@@ -62,9 +62,9 @@
                                             <segue destination="reE-Va-r8D" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bFU-3v-Gs0"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sound Meter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmU-Tw-TQa">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEW APP NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmU-Tw-TQa">
                                         <rect key="frame" x="50" y="8" width="314" height="44"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -98,14 +98,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="82" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minimum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="sB1-WX-Vvz">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="21.666666666666668"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="20.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-Ks-201">
-                                                <rect key="frame" x="0.0" y="29.666666666666689" width="82" height="40.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="34"/>
+                                                <rect key="frame" x="0.0" y="28.666666666666689" width="82" height="41.333333333333343"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="34"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -115,14 +115,14 @@
                                         <rect key="frame" x="122" y="0.0" width="82" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Average" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Efa-gq-WlA">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="21.666666666666668"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="21.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Qlr-4l-g30">
-                                                <rect key="frame" x="0.0" y="29.666666666666689" width="82" height="40.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="34"/>
+                                                <rect key="frame" x="0.0" y="29.333333333333311" width="82" height="40.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="34"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -132,14 +132,14 @@
                                         <rect key="frame" x="244" y="0.0" width="82" height="70"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Bw1-aO-txh">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="21.666666666666668"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="21.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="64" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xwj-7j-pup">
-                                                <rect key="frame" x="0.0" y="29.666666666666689" width="82" height="40.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="34"/>
+                                                <rect key="frame" x="0.0" y="29.333333333333311" width="82" height="40.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="34"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -155,13 +155,13 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mac-jB-1U0">
                                         <rect key="frame" x="73" y="104.66666666666663" width="180" height="50"/>
-                                        <color key="backgroundColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="5hK-rc-FyZ"/>
                                             <constraint firstAttribute="width" constant="180" id="T3P-lC-g1n"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Add to records">
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                        <state key="normal" title="Create record">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -185,7 +185,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Special offer for you!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="7Rp-lF-gXu">
                                         <rect key="frame" x="48" y="10" width="200" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -193,7 +193,7 @@
                                         <rect key="frame" x="256" y="10" width="50" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="10"/>
                                         <state key="normal" title="Open">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -210,7 +210,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Wud-TV-bpp"/>
                                 </constraints>
@@ -272,14 +272,14 @@
                                             <constraint firstAttribute="width" constant="150" id="axf-zw-Bk4"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sound Meter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="qEi-eZ-IGU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEW APP NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="qEi-eZ-IGU">
                                         <rect key="frame" x="0.0" y="158" width="150" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="QVw-KD-hhl"/>
                                             <constraint firstAttribute="width" constant="150" id="y4g-Ot-W6p"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                        <color key="textColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="24"/>
+                                        <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -315,7 +315,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.1027644202" green="0.1057073846" blue="0.27457028630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="selectedImageTintColor" systemColor="systemIndigoColor"/>
+                        <color key="selectedImageTintColor" systemColor="systemGreenColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ek7-ZZ-qPO"/>
@@ -376,13 +376,13 @@
                                                                                     <real key="value" value="10"/>
                                                                                 </userDefinedRuntimeAttribute>
                                                                                 <userDefinedRuntimeAttribute type="color" keyPath="backgroundRingColor">
-                                                                                    <color key="value" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                    <color key="value" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                                                                 </userDefinedRuntimeAttribute>
                                                                                 <userDefinedRuntimeAttribute type="color" keyPath="startColor">
-                                                                                    <color key="value" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                    <color key="value" systemColor="systemYellowColor"/>
                                                                                 </userDefinedRuntimeAttribute>
                                                                                 <userDefinedRuntimeAttribute type="color" keyPath="endColor">
-                                                                                    <color key="value" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                    <color key="value" systemColor="systemGroupedBackgroundColor"/>
                                                                                 </userDefinedRuntimeAttribute>
                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="progress">
                                                                                     <real key="value" value="0.71999999999999997"/>
@@ -405,13 +405,13 @@
                                                                             <real key="value" value="10"/>
                                                                         </userDefinedRuntimeAttribute>
                                                                         <userDefinedRuntimeAttribute type="color" keyPath="backgroundRingColor">
-                                                                            <color key="value" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <color key="value" systemColor="systemGroupedBackgroundColor"/>
                                                                         </userDefinedRuntimeAttribute>
                                                                         <userDefinedRuntimeAttribute type="color" keyPath="startColor">
-                                                                            <color key="value" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <color key="value" systemColor="systemGreenColor"/>
                                                                         </userDefinedRuntimeAttribute>
                                                                         <userDefinedRuntimeAttribute type="color" keyPath="endColor">
-                                                                            <color key="value" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <color key="value" systemColor="systemGroupedBackgroundColor"/>
                                                                         </userDefinedRuntimeAttribute>
                                                                         <userDefinedRuntimeAttribute type="number" keyPath="progress">
                                                                             <real key="value" value="0.71999999999999997"/>
@@ -434,13 +434,13 @@
                                                                     <real key="value" value="10"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="color" keyPath="backgroundRingColor">
-                                                                    <color key="value" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="value" systemColor="systemGroupedBackgroundColor"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="color" keyPath="startColor">
-                                                                    <color key="value" red="0.42742189759999999" green="0.26670905950000001" blue="0.8314224482" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <color key="value" systemColor="systemMintColor"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="color" keyPath="endColor">
-                                                                    <color key="value" red="0.43441909550000002" green="0.2631932199" blue="0.81965690849999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <color key="value" systemColor="systemGroupedBackgroundColor"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="progress">
                                                                     <real key="value" value="0.71999999999999997"/>
@@ -452,7 +452,7 @@
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10, July" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="132-vZ-0Za">
                                                             <rect key="frame" x="287" y="22" width="101" height="90"/>
-                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -465,7 +465,7 @@
                                                                         <constraint firstAttribute="width" constant="160" id="8BB-vc-6uI"/>
                                                                         <constraint firstAttribute="height" constant="30" id="LBo-jn-sBx"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -475,7 +475,7 @@
                                                                         <constraint firstAttribute="width" constant="160" id="ak6-AT-dpE"/>
                                                                         <constraint firstAttribute="height" constant="30" id="txb-ZX-uj2"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -485,7 +485,7 @@
                                                                         <constraint firstAttribute="height" constant="30" id="lKo-ge-g6t"/>
                                                                         <constraint firstAttribute="width" constant="160" id="u8E-ke-u06"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -496,7 +496,7 @@
                                                             </constraints>
                                                         </stackView>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.82035559415817261" green="0.95073086023330688" blue="0.81283223628997803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="kKz-Fj-WVy" firstAttribute="top" secondItem="W7H-bs-Jfc" secondAttribute="top" constant="20" symbolic="YES" id="6rU-Oa-VOQ"/>
                                                         <constraint firstAttribute="bottom" secondItem="kKz-Fj-WVy" secondAttribute="bottom" constant="20" symbolic="YES" id="FUH-rC-X0u"/>
@@ -632,7 +632,7 @@
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate the app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="23W-Aw-gV1">
                                                             <rect key="frame" x="78" y="8" width="243" height="48"/>
-                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -644,7 +644,7 @@
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                     <constraints>
                                                         <constraint firstItem="5C9-MX-ket" firstAttribute="top" secondItem="55v-gY-TE0" secondAttribute="top" constant="19.670000000000002" id="4nN-IJ-PNa"/>
                                                         <constraint firstItem="5C9-MX-ket" firstAttribute="leading" secondItem="23W-Aw-gV1" secondAttribute="trailing" constant="8" symbolic="YES" id="DVz-Ux-tOc"/>
@@ -774,23 +774,37 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bFU-3v-Gs0"/>
         <segue reference="Qb9-8l-VdA"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="app-logo" width="256" height="256"/>
+        <image name="app-logo" width="404" height="285.5"/>
         <image name="arrow-image" width="45" height="45"/>
         <image name="close-image" width="30" height="30"/>
         <image name="gift-image" width="32" height="32"/>
         <image name="level-image" width="30" height="30"/>
-        <image name="menu-image" width="64" height="64"/>
-        <image name="rate-image" width="128" height="128"/>
+        <image name="menu-image" width="242" height="253"/>
+        <image name="rate-image" width="414" height="377.5"/>
         <image name="records-image" width="30" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2092AD68-C18A-4548-87FC-0566A3C3C488"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85CB1511-467B-4FBA-8816-FE9073BB551E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoundMeter/Splash Controller/SplashViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "dataDidLoad(webViewModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85CB1511-467B-4FBA-8816-FE9073BB551E - d636c5ce7b5074f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundMeter.DeservePropagateEqualEntry.bowShrinkEnlightened(rustOpenEuphoric: IOSAppLogicFramework.WWebViewModel) -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "85CB1511-467B-4FBA-8816-FE9073BB551E - 95ed6e3e2a409a51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundMeter.SplashViewController.crusadeCreateIntrinsicVehicle(recklessUnfoldExquisite: IOSAppLogicFramework.WWebViewModel) -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AC387C0-51DA-4986-9477-3CA74C928231"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoundMeter/Splash Controller/SpashScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "outlookCloneChampion()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7AC387C0-51DA-4986-9477-3CA74C928231 - 69ecb8a3c8a2ae94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in SoundMeter.ServeUseChicTradition.outlookCloneChampion() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SpashScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "7AC387C0-51DA-4986-9477-3CA74C928231 - 1a451e0ef0de58dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in SoundMeter.ShadeShiftCleanHighway.callbackInferEssentialDevice() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SpashScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3ED1275-7C0B-4124-B189-35C789E58CF4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoundMeter/Splash Controller/SpashScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "outlookCloneChampion()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3ED1275-7C0B-4124-B189-35C789E58CF4 - 694f958824494be7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundMeter.ServeUseChicTradition.outlookCloneChampion() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SpashScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "B3ED1275-7C0B-4124-B189-35C789E58CF4 - 69ecb8a3c8a2aeda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in SoundMeter.ServeUseChicTradition.outlookCloneChampion() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SpashScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "B3ED1275-7C0B-4124-B189-35C789E58CF4 - f20cc9ccef6e1b72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundMeter.ShadeShiftCleanHighway.callbackInferEssentialDevice() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SpashScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "B3ED1275-7C0B-4124-B189-35C789E58CF4 - 1a451e0ef0de5893"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in SoundMeter.ShadeShiftCleanHighway.callbackInferEssentialDevice() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SpashScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99380E16-3155-4ACC-8ABA-D0AFC5DD232C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoundMeter/Splash Controller/SplashViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99380E16-3155-4ACC-8ABA-D0AFC5DD232C - 9979f5c6515f0545"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundMeter.DeservePropagateEqualEntry.viewDidLoad() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "99380E16-3155-4ACC-8ABA-D0AFC5DD232C - f3200df34b3dc5b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundMeter.SplashViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SoundMeter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alex/RepositoryHD/testRefactorSoundMeter/SoundMeter/Splash%20Controller/SplashViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
