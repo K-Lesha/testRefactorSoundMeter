@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490F41BE262474B500D1A86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41BD262474B500D1A86D /* AppDelegate.swift */; };
-		490F41C0262474B500D1A86D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41BF262474B500D1A86D /* SceneDelegate.swift */; };
-		490F41C2262474B500D1A86D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41C1262474B500D1A86D /* MainViewController.swift */; };
+		490F41BE262474B500D1A86D /* WieldApplyDistinguished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41BD262474B500D1A86D /* WieldApplyDistinguished.swift */; };
+		490F41C0262474B500D1A86D /* CornWinExtraordinaryWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41BF262474B500D1A86D /* CornWinExtraordinaryWin.swift */; };
+		490F41C2262474B500D1A86D /* FosterForwardEnthusiasticGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41C1262474B500D1A86D /* FosterForwardEnthusiasticGame.swift */; };
 		490F41C5262474B500D1A86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490F41C3262474B500D1A86D /* Main.storyboard */; };
 		490F41C7262474B700D1A86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490F41C6262474B700D1A86D /* Assets.xcassets */; };
 		490F41CA262474B700D1A86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490F41C8262474B700D1A86D /* LaunchScreen.storyboard */; };
-		490F421B26247AE500D1A86D /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F421826247AE400D1A86D /* CameraButton.swift */; };
-		490F422026247BFB00D1A86D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F421F26247BFB00D1A86D /* UIColorExtension.swift */; };
+		490F421B26247AE500D1A86D /* AshtrayPlugGainfulInvoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F421826247AE400D1A86D /* AshtrayPlugGainfulInvoice.swift */; };
+		490F422026247BFB00D1A86D /* GlareDeleteArtistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F421F26247BFB00D1A86D /* GlareDeleteArtistic.swift */; };
 		491641B126B41AD1002645CF /* wave-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 491641B026B41AD1002645CF /* wave-animation.json */; };
-		492E88F82629D245007F861A /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E88F72629D244007F861A /* DesignableView.swift */; };
-		4950C6AE266A265A0051348A /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6AD266A26580051348A /* GradientColor.swift */; };
-		4950C6B1266A26B50051348A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6AF266A26B50051348A /* Constants.swift */; };
-		4950C6B2266A26B50051348A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6B0266A26B50051348A /* Config.swift */; };
+		492E88F82629D245007F861A /* BehaviorRetainAdaptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E88F72629D244007F861A /* BehaviorRetainAdaptable.swift */; };
+		4950C6AE266A265A0051348A /* PebbleUnifyEssentialCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6AD266A26580051348A /* PebbleUnifyEssentialCar.swift */; };
+		4950C6B1266A26B50051348A /* DrumUnfoldEmpatheticCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6AF266A26B50051348A /* DrumUnfoldEmpatheticCountry.swift */; };
+		4950C6B2266A26B50051348A /* ChiefConvertFantastic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6B0266A26B50051348A /* ChiefConvertFantastic.swift */; };
 		496537FE26B03C96006C54B8 /* DbData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 496537FD26B03C96006C54B8 /* DbData.xcdatamodel */; };
-		4965380126B03D2F006C54B8 /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965380026B03D2F006C54B8 /* RecordsCell.swift */; };
-		49ADFEF926B412BD000AD231 /* MyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEF826B412BD000AD231 /* MyAlertViewController.swift */; };
-		49ADFEFD26B41680000AD231 /* SettingsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEFC26B41680000AD231 /* SettingsTableCell.swift */; };
-		49ADFEFF26B41686000AD231 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEFE26B41686000AD231 /* Settings.swift */; };
-		49ADFF0126B4168D000AD231 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFF0026B4168D000AD231 /* SettingsViewController.swift */; };
-		49E4295B266A616300D9CB94 /* UITabBar+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4295A266A616200D9CB94 /* UITabBar+Ext.swift */; };
-		49E4295E266A642100D9CB94 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4295D266A642100D9CB94 /* RecordsViewController.swift */; };
+		4965380126B03D2F006C54B8 /* KeepawayPrepareEnjoyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965380026B03D2F006C54B8 /* KeepawayPrepareEnjoyable.swift */; };
+		49ADFEF926B412BD000AD231 /* WildlifeStrengthenChic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEF826B412BD000AD231 /* WildlifeStrengthenChic.swift */; };
+		49ADFEFD26B41680000AD231 /* DeedUnlockFreshConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEFC26B41680000AD231 /* DeedUnlockFreshConcept.swift */; };
+		49ADFEFF26B41686000AD231 /* CourtValueInstrumental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEFE26B41686000AD231 /* CourtValueInstrumental.swift */; };
+		49ADFF0126B4168D000AD231 /* ContributeDesignGratefulClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFF0026B4168D000AD231 /* ContributeDesignGratefulClub.swift */; };
+		49E4295E266A642100D9CB94 /* ArgueIntegrateAdjustableLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4295D266A642100D9CB94 /* ArgueIntegrateAdjustableLand.swift */; };
 		A992E427482121D60FE9F1FC /* Pods_SoundMeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FD5E8B6FAFDC5A92A8AF99 /* Pods_SoundMeter.framework */; };
 		D9FF0CBF2C3C24EB0037A865 /* LitePayt in Frameworks */ = {isa = PBXBuildFile; productRef = D9FF0CBE2C3C24EB0037A865 /* LitePayt */; };
 		D9FF0CC12C3C2F710037A865 /* LitePayt.storekit in Resources */ = {isa = PBXBuildFile; fileRef = D9FF0CC02C3C2F710037A865 /* LitePayt.storekit */; };
+		FAB7CFE82C3D83EC00EF6FDF /* DiamondTrackAccurateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7CFE72C3D83EC00EF6FDF /* DiamondTrackAccurateProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,31 +50,31 @@
 		3200A6323D4316AF89F61125 /* Pods-SoundMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeter.debug.xcconfig"; path = "Target Support Files/Pods-SoundMeter/Pods-SoundMeter.debug.xcconfig"; sourceTree = "<group>"; };
 		43FD5E8B6FAFDC5A92A8AF99 /* Pods_SoundMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F41BA262474B500D1A86D /* Scanner de Som.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scanner de Som.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		490F41BD262474B500D1A86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		490F41BF262474B500D1A86D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		490F41C1262474B500D1A86D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		490F41BD262474B500D1A86D /* WieldApplyDistinguished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WieldApplyDistinguished.swift; sourceTree = "<group>"; };
+		490F41BF262474B500D1A86D /* CornWinExtraordinaryWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornWinExtraordinaryWin.swift; sourceTree = "<group>"; };
+		490F41C1262474B500D1A86D /* FosterForwardEnthusiasticGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FosterForwardEnthusiasticGame.swift; sourceTree = "<group>"; };
 		490F41C4262474B500D1A86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		490F41C6262474B700D1A86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490F41C9262474B700D1A86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490F41CB262474B700D1A86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		490F421826247AE400D1A86D /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
-		490F421F26247BFB00D1A86D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		490F421826247AE400D1A86D /* AshtrayPlugGainfulInvoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AshtrayPlugGainfulInvoice.swift; sourceTree = "<group>"; };
+		490F421F26247BFB00D1A86D /* GlareDeleteArtistic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlareDeleteArtistic.swift; sourceTree = "<group>"; };
 		491641B026B41AD1002645CF /* wave-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "wave-animation.json"; sourceTree = "<group>"; };
 		491641D026B41E61002645CF /* SoundMeter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundMeter.entitlements; sourceTree = "<group>"; };
-		492E88F72629D244007F861A /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		4950C6AD266A26580051348A /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
-		4950C6AF266A26B50051348A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4950C6B0266A26B50051348A /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		492E88F72629D244007F861A /* BehaviorRetainAdaptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorRetainAdaptable.swift; sourceTree = "<group>"; };
+		4950C6AD266A26580051348A /* PebbleUnifyEssentialCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PebbleUnifyEssentialCar.swift; sourceTree = "<group>"; };
+		4950C6AF266A26B50051348A /* DrumUnfoldEmpatheticCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumUnfoldEmpatheticCountry.swift; sourceTree = "<group>"; };
+		4950C6B0266A26B50051348A /* ChiefConvertFantastic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChiefConvertFantastic.swift; sourceTree = "<group>"; };
 		496537FD26B03C96006C54B8 /* DbData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DbData.xcdatamodel; sourceTree = "<group>"; };
-		4965380026B03D2F006C54B8 /* RecordsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
-		49ADFEF826B412BD000AD231 /* MyAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAlertViewController.swift; sourceTree = "<group>"; };
-		49ADFEFC26B41680000AD231 /* SettingsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableCell.swift; sourceTree = "<group>"; };
-		49ADFEFE26B41686000AD231 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		49ADFF0026B4168D000AD231 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		49E4295A266A616200D9CB94 /* UITabBar+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+Ext.swift"; sourceTree = "<group>"; };
-		49E4295D266A642100D9CB94 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		4965380026B03D2F006C54B8 /* KeepawayPrepareEnjoyable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepawayPrepareEnjoyable.swift; sourceTree = "<group>"; };
+		49ADFEF826B412BD000AD231 /* WildlifeStrengthenChic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WildlifeStrengthenChic.swift; sourceTree = "<group>"; };
+		49ADFEFC26B41680000AD231 /* DeedUnlockFreshConcept.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeedUnlockFreshConcept.swift; sourceTree = "<group>"; };
+		49ADFEFE26B41686000AD231 /* CourtValueInstrumental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourtValueInstrumental.swift; sourceTree = "<group>"; };
+		49ADFF0026B4168D000AD231 /* ContributeDesignGratefulClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributeDesignGratefulClub.swift; sourceTree = "<group>"; };
+		49E4295D266A642100D9CB94 /* ArgueIntegrateAdjustableLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgueIntegrateAdjustableLand.swift; sourceTree = "<group>"; };
 		8E5E72923874444C546EB422 /* Pods-SoundMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeter.release.xcconfig"; path = "Target Support Files/Pods-SoundMeter/Pods-SoundMeter.release.xcconfig"; sourceTree = "<group>"; };
 		D9FF0CC02C3C2F710037A865 /* LitePayt.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LitePayt.storekit; sourceTree = "<group>"; };
+		FAB7CFE72C3D83EC00EF6FDF /* DiamondTrackAccurateProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondTrackAccurateProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 				49E4295C266A640A00D9CB94 /* Records Controller */,
 				4950C6B3266A26B80051348A /* Config Files */,
 				490F421726247AD200D1A86D /* Supporting Files */,
-				490F41BD262474B500D1A86D /* AppDelegate.swift */,
-				490F41BF262474B500D1A86D /* SceneDelegate.swift */,
+				490F41BD262474B500D1A86D /* WieldApplyDistinguished.swift */,
+				490F41BF262474B500D1A86D /* CornWinExtraordinaryWin.swift */,
 				490F41C3262474B500D1A86D /* Main.storyboard */,
 				490F41C6262474B700D1A86D /* Assets.xcassets */,
 				490F41C8262474B700D1A86D /* LaunchScreen.storyboard */,
@@ -142,11 +142,11 @@
 			children = (
 				491641AF26B41AB7002645CF /* Lottie Animation */,
 				496537FD26B03C96006C54B8 /* DbData.xcdatamodel */,
-				49E4295A266A616200D9CB94 /* UITabBar+Ext.swift */,
-				4950C6AD266A26580051348A /* GradientColor.swift */,
-				492E88F72629D244007F861A /* DesignableView.swift */,
-				490F421F26247BFB00D1A86D /* UIColorExtension.swift */,
-				490F421826247AE400D1A86D /* CameraButton.swift */,
+				FAB7CFE72C3D83EC00EF6FDF /* DiamondTrackAccurateProfile.swift */,
+				4950C6AD266A26580051348A /* PebbleUnifyEssentialCar.swift */,
+				492E88F72629D244007F861A /* BehaviorRetainAdaptable.swift */,
+				490F421F26247BFB00D1A86D /* GlareDeleteArtistic.swift */,
+				490F421826247AE400D1A86D /* AshtrayPlugGainfulInvoice.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 		4950C6B3266A26B80051348A /* Config Files */ = {
 			isa = PBXGroup;
 			children = (
-				4950C6B0266A26B50051348A /* Config.swift */,
-				4950C6AF266A26B50051348A /* Constants.swift */,
+				4950C6B0266A26B50051348A /* ChiefConvertFantastic.swift */,
+				4950C6AF266A26B50051348A /* DrumUnfoldEmpatheticCountry.swift */,
 			);
 			path = "Config Files";
 			sourceTree = "<group>";
@@ -171,8 +171,8 @@
 		4950C6B4266A27A60051348A /* Noise Level Controller */ = {
 			isa = PBXGroup;
 			children = (
-				490F41C1262474B500D1A86D /* MainViewController.swift */,
-				49ADFEF826B412BD000AD231 /* MyAlertViewController.swift */,
+				490F41C1262474B500D1A86D /* FosterForwardEnthusiasticGame.swift */,
+				49ADFEF826B412BD000AD231 /* WildlifeStrengthenChic.swift */,
 			);
 			path = "Noise Level Controller";
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 		496537FF26B03D1F006C54B8 /* Table Cell */ = {
 			isa = PBXGroup;
 			children = (
-				4965380026B03D2F006C54B8 /* RecordsCell.swift */,
+				4965380026B03D2F006C54B8 /* KeepawayPrepareEnjoyable.swift */,
 			);
 			path = "Table Cell";
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 			children = (
 				49ADFEFA26B4166E000AD231 /* Table Cell */,
 				49ADFEFB26B41674000AD231 /* Model */,
-				49ADFF0026B4168D000AD231 /* SettingsViewController.swift */,
+				49ADFF0026B4168D000AD231 /* ContributeDesignGratefulClub.swift */,
 			);
 			path = "Settings Controller";
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 		49ADFEFA26B4166E000AD231 /* Table Cell */ = {
 			isa = PBXGroup;
 			children = (
-				49ADFEFC26B41680000AD231 /* SettingsTableCell.swift */,
+				49ADFEFC26B41680000AD231 /* DeedUnlockFreshConcept.swift */,
 			);
 			path = "Table Cell";
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 		49ADFEFB26B41674000AD231 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				49ADFEFE26B41686000AD231 /* Settings.swift */,
+				49ADFEFE26B41686000AD231 /* CourtValueInstrumental.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				496537FF26B03D1F006C54B8 /* Table Cell */,
-				49E4295D266A642100D9CB94 /* RecordsViewController.swift */,
+				49E4295D266A642100D9CB94 /* ArgueIntegrateAdjustableLand.swift */,
 			);
 			path = "Records Controller";
 			sourceTree = "<group>";
@@ -351,23 +351,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490F41C2262474B500D1A86D /* MainViewController.swift in Sources */,
+				490F41C2262474B500D1A86D /* FosterForwardEnthusiasticGame.swift in Sources */,
 				496537FE26B03C96006C54B8 /* DbData.xcdatamodel in Sources */,
-				49E4295E266A642100D9CB94 /* RecordsViewController.swift in Sources */,
-				49ADFEF926B412BD000AD231 /* MyAlertViewController.swift in Sources */,
-				49E4295B266A616300D9CB94 /* UITabBar+Ext.swift in Sources */,
-				49ADFF0126B4168D000AD231 /* SettingsViewController.swift in Sources */,
-				4950C6AE266A265A0051348A /* GradientColor.swift in Sources */,
-				49ADFEFF26B41686000AD231 /* Settings.swift in Sources */,
-				49ADFEFD26B41680000AD231 /* SettingsTableCell.swift in Sources */,
-				4950C6B2266A26B50051348A /* Config.swift in Sources */,
-				490F422026247BFB00D1A86D /* UIColorExtension.swift in Sources */,
-				492E88F82629D245007F861A /* DesignableView.swift in Sources */,
-				490F41BE262474B500D1A86D /* AppDelegate.swift in Sources */,
-				490F421B26247AE500D1A86D /* CameraButton.swift in Sources */,
-				4965380126B03D2F006C54B8 /* RecordsCell.swift in Sources */,
-				490F41C0262474B500D1A86D /* SceneDelegate.swift in Sources */,
-				4950C6B1266A26B50051348A /* Constants.swift in Sources */,
+				49E4295E266A642100D9CB94 /* ArgueIntegrateAdjustableLand.swift in Sources */,
+				49ADFEF926B412BD000AD231 /* WildlifeStrengthenChic.swift in Sources */,
+				49ADFF0126B4168D000AD231 /* ContributeDesignGratefulClub.swift in Sources */,
+				4950C6AE266A265A0051348A /* PebbleUnifyEssentialCar.swift in Sources */,
+				49ADFEFF26B41686000AD231 /* CourtValueInstrumental.swift in Sources */,
+				49ADFEFD26B41680000AD231 /* DeedUnlockFreshConcept.swift in Sources */,
+				4950C6B2266A26B50051348A /* ChiefConvertFantastic.swift in Sources */,
+				490F422026247BFB00D1A86D /* GlareDeleteArtistic.swift in Sources */,
+				492E88F82629D245007F861A /* BehaviorRetainAdaptable.swift in Sources */,
+				490F41BE262474B500D1A86D /* WieldApplyDistinguished.swift in Sources */,
+				490F421B26247AE500D1A86D /* AshtrayPlugGainfulInvoice.swift in Sources */,
+				4965380126B03D2F006C54B8 /* KeepawayPrepareEnjoyable.swift in Sources */,
+				490F41C0262474B500D1A86D /* CornWinExtraordinaryWin.swift in Sources */,
+				FAB7CFE82C3D83EC00EF6FDF /* DiamondTrackAccurateProfile.swift in Sources */,
+				4950C6B1266A26B50051348A /* DrumUnfoldEmpatheticCountry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
