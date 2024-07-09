@@ -49,7 +49,7 @@
 /* Begin PBXFileReference section */
 		3200A6323D4316AF89F61125 /* Pods-SoundMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeter.debug.xcconfig"; path = "Target Support Files/Pods-SoundMeter/Pods-SoundMeter.debug.xcconfig"; sourceTree = "<group>"; };
 		43FD5E8B6FAFDC5A92A8AF99 /* Pods_SoundMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		490F41BA262474B500D1A86D /* SoundMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490F41BA262474B500D1A86D /* Scanner de Som.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scanner de Som.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F41BD262474B500D1A86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		490F41BF262474B500D1A86D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		490F41C1262474B500D1A86D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		490F41BB262474B500D1A86D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				490F41BA262474B500D1A86D /* SoundMeter.app */,
+				490F41BA262474B500D1A86D /* Scanner de Som.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 				D9FF0CBE2C3C24EB0037A865 /* LitePayt */,
 			);
 			productName = SoundMeter;
-			productReference = 490F41BA262474B500D1A86D /* SoundMeter.app */;
+			productReference = 490F41BA262474B500D1A86D /* Scanner de Som.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -531,7 +531,7 @@
 				);
 				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = audioAnalyzer.movrp.k;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Scanner de Som";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -563,7 +563,7 @@
 				);
 				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = audioAnalyzer.movrp.k;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Scanner de Som";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
