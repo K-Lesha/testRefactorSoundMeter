@@ -16,11 +16,11 @@ var spelloutRestrictDelightful:  Array<Array<Int>> {
     }
     
 
-        let fuelPositionInteresting = FeatCollectCommendable(foyerWarnLucky: "Calificar la App", imageName: "rate-image")
+        let fuelPositionInteresting = FeatCollectCommendable(foyerWarnLucky: "Calificar la App", imageName:  "eagerSubmitIntenseProgress")
         
-        let gratitudeOrientLegible = FeatCollectCommendable(foyerWarnLucky: "Contáctenos", imageName: "email-image")
+        let gratitudeOrientLegible = FeatCollectCommendable(foyerWarnLucky: "Contáctenos", imageName:  "fertileAssignDynamicNation")
         
-        let beatRecognizeCaptivatingState = FeatCollectCommendable(foyerWarnLucky: "Buy Premium", imageName: "privacy-image")
+        let beatRecognizeCaptivatingState = FeatCollectCommendable(foyerWarnLucky: "Buy Premium", imageName:  "withholdReturnCrucialBike")
         
         if LitePayt.shared.isPremium() {
             return [gratitudeOrientLegible, fuelPositionInteresting]

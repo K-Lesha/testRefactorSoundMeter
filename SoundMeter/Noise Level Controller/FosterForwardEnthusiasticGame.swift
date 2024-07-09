@@ -259,7 +259,7 @@ extension ConnectWaitExceptionalGathering {
         let alert = CommonwealthSignExemplaryDeadline(
             title: "¡Bien hecho!",
             message: "Has agregado con éxito un registro de nivel de ruido",
-            imageName: "success-image")
+            imageName:  "virtualListEssentialMaterial")
 
         alert.addAction(title: "OK", style: .default)
         present(alert, animated: true, completion: nil)

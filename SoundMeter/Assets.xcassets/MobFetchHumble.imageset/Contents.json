@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "potatoNegotiateEagerGathering.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "MankindWaitInvisibleManager.png"
     },
     {
-      "scale" : "2x",
-      "idiom" : "universal"
+      "idiom" : "universal",
+      "scale" : "2x"
     },
     {
       "scale" : "3x",

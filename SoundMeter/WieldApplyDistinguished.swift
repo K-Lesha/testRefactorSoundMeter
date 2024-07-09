@@ -114,12 +114,12 @@ var fretTrainExcellentEntry:  Int {
         LitePayt.shared.uiConfig.slides =
         [
             
-            TutorialSlide(picture: UIImage(named: "Image 0") ?? UIImage(), text: "¡Bienvenido a Scanner de Som!",description: "¡Bienvenido a Scanner de Som! La mejor aplicación de utilidades de escaneo de sonido para tu teléfono."),
-            TutorialSlide(picture: UIImage(named: "Image") ?? UIImage(), text: "Rápido y seguro",description: " Escanea el sonido en la aplicación, rápido y seguro."),
-            TutorialSlide(picture: UIImage(named: "Image 1") ?? UIImage(), text: "Fácil de usar",description: "Fácil de usar y cómodo para guardar audio."),
-            TutorialSlide(picture: UIImage(named: "Image 2") ?? UIImage(), text: "Bienvenido a la aplicación Scanner de Som",description: "Bienvenido a la aplicación Scanner de Som, creamos esta aplicación para hacer la vida de cada usuario más cómoda."),
+            TutorialSlide(picture: UIImage(named: "DisgustReachEnergeticEffort") ?? UIImage(), text: "¡Bienvenido a Scanner de Som!",description: "¡Bienvenido a Scanner de Som! La mejor aplicación de utilidades de escaneo de sonido para tu teléfono."),
+            TutorialSlide(picture: UIImage(named: "NoiseKeepInvolved") ?? UIImage(), text: "Rápido y seguro",description: " Escanea el sonido en la aplicación, rápido y seguro."),
+            TutorialSlide(picture: UIImage(named: "RapeEndHonorable") ?? UIImage(), text: "Fácil de usar",description: "Fácil de usar y cómodo para guardar audio."),
+            TutorialSlide(picture: UIImage(named: "DriveoutExtractAmpleFile") ?? UIImage(), text: "Bienvenido a la aplicación Scanner de Som",description: "Bienvenido a la aplicación Scanner de Som, creamos esta aplicación para hacer la vida de cada usuario más cómoda."),
             
-            PaymentSlide(picture: UIImage(named: "Image 3") ?? UIImage(), text: "Desbloquea todas las funciones de nuestra aplicación", description: "Desbloquea todas las funciones de nuestra aplicación por $1.99 por semana o prueba nuestra aplicación de forma gratuita - 5 guardados de audio gratis, luego debes elegir un plan de suscripción pagado. El plan pagado incluye guardados de audio ilimitados.", closeAvailable: LitePayt.shared.config.closeAvailable)
+            PaymentSlide(picture: UIImage(named: "MobFetchHumble") ?? UIImage(), text: "Desbloquea todas las funciones de nuestra aplicación", description: "Desbloquea todas las funciones de nuestra aplicación por $1.99 por semana o prueba nuestra aplicación de forma gratuita - 5 guardados de audio gratis, luego debes elegir un plan de suscripción pagado. El plan pagado incluye guardados de audio ilimitados.", closeAvailable: LitePayt.shared.config.closeAvailable)
         ]
         
         LitePayt.shared.uiConfig.features = [
@@ -127,7 +127,7 @@ var fretTrainExcellentEntry:  Int {
             "AD Free",
         ]
         
-        LitePayt.shared.uiConfig.unlockIcon = UIImage(named: "premium") ?? UIImage()
+        LitePayt.shared.uiConfig.unlockIcon = UIImage(named: "longagoTrimFamed") ?? UIImage()
         
         //TODO:  CHANGE APP ID в двух местах на аппхад
         
