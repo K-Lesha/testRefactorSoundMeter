@@ -1,0 +1,24 @@
+{
+  "originHash" : "2d262d691998197b237ba9c56d2b2f16b69b3db9d78bd12d5322debf0396a544",
+  "pins" : [
+    {
+      "identity" : "apphudsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apphud/ApphudSDK",
+      "state" : {
+        "revision" : "2b03ea5e67bba7691f4df1725779abc14489490a",
+        "version" : "3.3.6"
+      }
+    },
+    {
+      "identity" : "progresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/relatedcode/ProgressHUD",
+      "state" : {
+        "revision" : "9364904a42cb25f58d026451140c4080a868e72e",
+        "version" : "14.1.3"
+      }
+    }
+  ],
+  "version" : 3
+}

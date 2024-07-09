@@ -6,6 +6,7 @@ import AVFoundation
 import CoreAudio
 import CoreData
 import GaugeSlider
+import LitePayt
 
 class MainViewController: UIViewController {
     
@@ -153,7 +154,9 @@ class MainViewController: UIViewController {
     
     
     @IBAction func addToRecords(_ sender: Any) {
-        addRecord()
+        LitePayt.shared.runAvailable { _ in
+            self.addRecord()
+        }
     }
     
     func setupUserInterface() {

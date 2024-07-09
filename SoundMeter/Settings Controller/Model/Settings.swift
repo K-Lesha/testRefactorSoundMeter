@@ -1,6 +1,7 @@
 
 
 import Foundation
+import LitePayt
 
 struct Settings {
     
@@ -13,10 +14,14 @@ struct Settings {
         
         let v2 = Settings(settingsOption: "Contáctenos", imageName: "email-image")
         
-        let v3 = Settings(settingsOption: "Política de Privacidad", imageName: "privacy-image")
+        let v3 = Settings(settingsOption: "Buy Premium", imageName: "privacy-image")
         
-        let v4 = Settings(settingsOption: "Términos de Uso", imageName: "terms-image")
+        if LitePayt.shared.isPremium() {
+            return [v2, v1]
+        } else {
+            return [v2, v1, v3]
+        }
         
-        return [v2, v1, v3, v4]
+      
     }
 }

@@ -1,6 +1,0 @@
-framework module Pods_SoundMeterNotificationServiceExtension {
-  umbrella header "Pods-SoundMeterNotificationServiceExtension-umbrella.h"
-
-  export *
-  module * { export * }
-}

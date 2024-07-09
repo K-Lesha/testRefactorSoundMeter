@@ -30,12 +30,6 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>7</string>
-	<key>FacebookAppID</key>
-	<string>241960511539522</string>
-	<key>FacebookClientToken</key>
-	<string>c348e73c970ca14a5080c9f251db740d</string>
-	<key>FacebookDisplayName</key>
-	<string>APP-NAME</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>tiktokopensdk</string>
@@ -45,16 +39,12 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSAdvertisingAttributionReportEndpoint</key>
-	<string>https://appsflyer-skadnetwork.com</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Use for detect sound level</string>
 	<key>NSUserNotificationsUsageDescription</key>
 	<string>Using for notify about updates</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>We use it for target ads espetially for you</string>
-	<key>TikTokAppID</key>
-	<string>7220814664685504518</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

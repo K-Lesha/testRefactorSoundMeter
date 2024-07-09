@@ -2,6 +2,7 @@
 import UIKit
 import MessageUI
 import UserNotifications
+import LitePayt
 
 class SettingsViewController: UIViewController {
     
@@ -94,13 +95,12 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
             rateApp()
 
         } else if indexPath.row == 2 {
-            if let url = URL(string: privacyUrl) {
-                UIApplication.shared.open(url)
+            self.dismiss(animated: true) {
+                LitePayt.shared.fullCheckPremium {
+                    
+                }
             }
-        } else if indexPath.row == 3 {
-            if let url = URL(string: termsOfUseUrl) {
-                UIApplication.shared.open(url)
-            }
+          
         }
     }
     

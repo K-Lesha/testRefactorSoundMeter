@@ -2,9 +2,8 @@
 
 import UIKit
 import CoreData
-import IOSAppLogicFramework
-import FBSDKCoreKit
-import TikTokOpenSDK
+import LitePayt
+import SwiftUI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,50 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        NotificationsService.initializeNotificationService(options: launchOptions)
-        WRemoteConfigService.configure()
-        
         UITabBar.setTransparentTabbar()
         UITabBar.appearance().unselectedItemTintColor = .lightGray
         
+        setupLitePayt()
         
         return true
-    }
-    
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        ApplicationDelegate.shared.application(
-                    app,
-                    open: url,
-                    sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
-                    annotation: options[UIApplication.OpenURLOptionsKey.annotation]
-                )
-        guard let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
-              let annotation = options[UIApplication.OpenURLOptionsKey.annotation] else {
-            return false
-        }
-
-        if TikTokOpenSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: sourceApplication, annotation: annotation) {
-            return true
-        }
-        return false
-    }
-    
-    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        if TikTokOpenSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: sourceApplication, annotation: annotation) {
-            return true
-        }
-        return false
-    }
-
-    func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
-        if TikTokOpenSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: nil, annotation: "") {
-            return true
-        }
-        return false
-    }
-    
-    func applicationWillTerminate(_ application: UIApplication) {
-        self.saveContext()
     }
     
     lazy var persistentContainer: NSPersistentContainer = {
@@ -95,6 +56,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    
+    
+    func setupLitePayt(){
+        LitePayt.shared.setup(key: "app_xD5Hx2jPXnT77hXRseGPLohyhw8HrL")
+        
+        LitePayt.shared.uiConfig.slides =
+        [
+            
+            TutorialSlide(picture: UIImage(named: "Image 0") ?? UIImage(), text: "¡Bienvenido a Scanner de Som!",description: "¡Bienvenido a Scanner de Som! La mejor aplicación de utilidades de escaneo de sonido para tu teléfono."),
+            TutorialSlide(picture: UIImage(named: "Image") ?? UIImage(), text: "Rápido y seguro",description: " Escanea el sonido en la aplicación, rápido y seguro."),
+            TutorialSlide(picture: UIImage(named: "Image 1") ?? UIImage(), text: "Fácil de usar",description: "Fácil de usar y cómodo para guardar audio."),
+            TutorialSlide(picture: UIImage(named: "Image 2") ?? UIImage(), text: "Bienvenido a la aplicación Scanner de Som",description: "Bienvenido a la aplicación Scanner de Som, creamos esta aplicación para hacer la vida de cada usuario más cómoda."),
+            
+            PaymentSlide(picture: UIImage(named: "Image 3") ?? UIImage(), text: "Desbloquea todas las funciones de nuestra aplicación", description: "Desbloquea todas las funciones de nuestra aplicación por $1.99 por semana o prueba nuestra aplicación de forma gratuita - 5 guardados de audio gratis, luego debes elegir un plan de suscripción pagado. El plan pagado incluye guardados de audio ilimitados.", closeAvailable: LitePayt.shared.config.closeAvailable)
+        ]
+        
+        LitePayt.shared.uiConfig.features = [
+            "Unlimited scaning",
+            "AD Free",
+        ]
+        
+        LitePayt.shared.uiConfig.unlockIcon = UIImage(named: "premium") ?? UIImage()
+        
+        //TODO:  CHANGE APP ID в двух местах на аппхад
+        
+        LitePayt.shared.uiConfig.payInfo = "By continuing you agree to our Terms and Privacy Policy. \nRenews automatically unless auto-renew is turned off \nat least 24h before the trial period ends"
+        
+        LitePayt.shared.uiConfig.backgroundColor = Color("bg_color")
+        LitePayt.shared.uiConfig.foreground = .black
+        LitePayt.shared.uiConfig.secondaryForeground = .gray
+
+        LitePayt.shared.uiConfig.buttonBackground = Color("AccentColor")
+    }
+
 
 }
 

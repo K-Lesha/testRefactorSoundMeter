@@ -3,17 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09388D0E29ED6E8700161A71 /* SpashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09388D0D29ED6E8700161A71 /* SpashScreenViewModel.swift */; };
-		09388D1229ED777500161A71 /* SplashScreenViewOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09388D1029ED777500161A71 /* SplashScreenViewOutputProtocol.swift */; };
-		09388D1329ED777500161A71 /* SplashScreenViewInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09388D1129ED777500161A71 /* SplashScreenViewInputProtocol.swift */; };
-		09388D1829ED795100161A71 /* OneServiceInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09388D1529ED795100161A71 /* OneServiceInfo.plist */; };
-		09388D1A29ED795100161A71 /* AppFlayerInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09388D1729ED795100161A71 /* AppFlayerInfo.plist */; };
-		09388D1D29EDAEEB00161A71 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09388D1C29EDAEEB00161A71 /* WebViewViewController.swift */; };
-		21DBA62FB1FDB0C7096F8DF3 /* Pods_SoundMeterNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4C2B8C8D61D9EBC0B49221 /* Pods_SoundMeterNotificationServiceExtension.framework */; };
 		490F41BE262474B500D1A86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41BD262474B500D1A86D /* AppDelegate.swift */; };
 		490F41C0262474B500D1A86D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41BF262474B500D1A86D /* SceneDelegate.swift */; };
 		490F41C2262474B500D1A86D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F41C1262474B500D1A86D /* MainViewController.swift */; };
@@ -23,34 +16,22 @@
 		490F421B26247AE500D1A86D /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F421826247AE400D1A86D /* CameraButton.swift */; };
 		490F422026247BFB00D1A86D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F421F26247BFB00D1A86D /* UIColorExtension.swift */; };
 		491641B126B41AD1002645CF /* wave-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 491641B026B41AD1002645CF /* wave-animation.json */; };
-		491641C526B41D37002645CF /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491641C426B41D37002645CF /* NotificationService.swift */; };
-		491641C926B41D37002645CF /* SoundMeterNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 491641C226B41D37002645CF /* SoundMeterNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		491641D226B4328C002645CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 491641D126B4328C002645CF /* GoogleService-Info.plist */; };
 		492E88F82629D245007F861A /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E88F72629D244007F861A /* DesignableView.swift */; };
 		4950C6AE266A265A0051348A /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6AD266A26580051348A /* GradientColor.swift */; };
 		4950C6B1266A26B50051348A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6AF266A26B50051348A /* Constants.swift */; };
 		4950C6B2266A26B50051348A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4950C6B0266A26B50051348A /* Config.swift */; };
 		496537FE26B03C96006C54B8 /* DbData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 496537FD26B03C96006C54B8 /* DbData.xcdatamodel */; };
 		4965380126B03D2F006C54B8 /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965380026B03D2F006C54B8 /* RecordsCell.swift */; };
-		49ADFEF526B409C5000AD231 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEF426B409C5000AD231 /* SplashViewController.swift */; };
 		49ADFEF926B412BD000AD231 /* MyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEF826B412BD000AD231 /* MyAlertViewController.swift */; };
 		49ADFEFD26B41680000AD231 /* SettingsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEFC26B41680000AD231 /* SettingsTableCell.swift */; };
 		49ADFEFF26B41686000AD231 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFEFE26B41686000AD231 /* Settings.swift */; };
 		49ADFF0126B4168D000AD231 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADFF0026B4168D000AD231 /* SettingsViewController.swift */; };
 		49E4295B266A616300D9CB94 /* UITabBar+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4295A266A616200D9CB94 /* UITabBar+Ext.swift */; };
 		49E4295E266A642100D9CB94 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4295D266A642100D9CB94 /* RecordsViewController.swift */; };
-		9EB40041BF58435E79BBF6B9 /* Pods_SoundMeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB677575FDB79F7AD492C52 /* Pods_SoundMeter.framework */; };
+		A992E427482121D60FE9F1FC /* Pods_SoundMeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FD5E8B6FAFDC5A92A8AF99 /* Pods_SoundMeter.framework */; };
+		D9FF0CBF2C3C24EB0037A865 /* LitePayt in Frameworks */ = {isa = PBXBuildFile; productRef = D9FF0CBE2C3C24EB0037A865 /* LitePayt */; };
+		D9FF0CC12C3C2F710037A865 /* LitePayt.storekit in Resources */ = {isa = PBXBuildFile; fileRef = D9FF0CC02C3C2F710037A865 /* LitePayt.storekit */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		491641C726B41D37002645CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 490F41B2262474B500D1A86D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 491641C126B41D37002645CF;
-			remoteInfo = OneSignalNotificationServiceExtension;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		491641CA26B41D37002645CF /* Embed App Extensions */ = {
@@ -59,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				491641C926B41D37002645CF /* SoundMeterNotificationServiceExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,14 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		09388D0D29ED6E8700161A71 /* SpashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpashScreenViewModel.swift; sourceTree = "<group>"; };
-		09388D1029ED777500161A71 /* SplashScreenViewOutputProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewOutputProtocol.swift; sourceTree = "<group>"; };
-		09388D1129ED777500161A71 /* SplashScreenViewInputProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewInputProtocol.swift; sourceTree = "<group>"; };
-		09388D1529ED795100161A71 /* OneServiceInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OneServiceInfo.plist; sourceTree = "<group>"; };
-		09388D1729ED795100161A71 /* AppFlayerInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppFlayerInfo.plist; sourceTree = "<group>"; };
-		09388D1C29EDAEEB00161A71 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
-		113FC48329EF54AB0058A95C /* SoundMeterNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundMeterNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
-		311F5B23EAF02588B777F897 /* Pods-SoundMeterNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeterNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-SoundMeterNotificationServiceExtension/Pods-SoundMeterNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		3200A6323D4316AF89F61125 /* Pods-SoundMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeter.debug.xcconfig"; path = "Target Support Files/Pods-SoundMeter/Pods-SoundMeter.debug.xcconfig"; sourceTree = "<group>"; };
+		43FD5E8B6FAFDC5A92A8AF99 /* Pods_SoundMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F41BA262474B500D1A86D /* SoundMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		490F41BD262474B500D1A86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		490F41BF262474B500D1A86D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,29 +60,21 @@
 		490F421826247AE400D1A86D /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
 		490F421F26247BFB00D1A86D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		491641B026B41AD1002645CF /* wave-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "wave-animation.json"; sourceTree = "<group>"; };
-		491641C226B41D37002645CF /* SoundMeterNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SoundMeterNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		491641C426B41D37002645CF /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		491641C626B41D37002645CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491641D026B41E61002645CF /* SoundMeter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundMeter.entitlements; sourceTree = "<group>"; };
-		491641D126B4328C002645CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		492E88F72629D244007F861A /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		4950C6AD266A26580051348A /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
 		4950C6AF266A26B50051348A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4950C6B0266A26B50051348A /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		496537FD26B03C96006C54B8 /* DbData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DbData.xcdatamodel; sourceTree = "<group>"; };
 		4965380026B03D2F006C54B8 /* RecordsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
-		49ADFEF426B409C5000AD231 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		49ADFEF826B412BD000AD231 /* MyAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAlertViewController.swift; sourceTree = "<group>"; };
 		49ADFEFC26B41680000AD231 /* SettingsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableCell.swift; sourceTree = "<group>"; };
 		49ADFEFE26B41686000AD231 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		49ADFF0026B4168D000AD231 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		49E4295A266A616200D9CB94 /* UITabBar+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+Ext.swift"; sourceTree = "<group>"; };
 		49E4295D266A642100D9CB94 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
-		62579EEEC3AB1AD1092A1CEA /* Pods-SoundMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeter.release.xcconfig"; path = "Target Support Files/Pods-SoundMeter/Pods-SoundMeter.release.xcconfig"; sourceTree = "<group>"; };
-		B282C3DFD31FDE57B13BF9BC /* Pods-SoundMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeter.debug.xcconfig"; path = "Target Support Files/Pods-SoundMeter/Pods-SoundMeter.debug.xcconfig"; sourceTree = "<group>"; };
-		BAA12B80C089610347580142 /* Pods-SoundMeterNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeterNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-SoundMeterNotificationServiceExtension/Pods-SoundMeterNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		CEB677575FDB79F7AD492C52 /* Pods_SoundMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC4C2B8C8D61D9EBC0B49221 /* Pods_SoundMeterNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundMeterNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5E72923874444C546EB422 /* Pods-SoundMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundMeter.release.xcconfig"; path = "Target Support Files/Pods-SoundMeter/Pods-SoundMeter.release.xcconfig"; sourceTree = "<group>"; };
+		D9FF0CC02C3C2F710037A865 /* LitePayt.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LitePayt.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,55 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EB40041BF58435E79BBF6B9 /* Pods_SoundMeter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		491641BF26B41D37002645CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21DBA62FB1FDB0C7096F8DF3 /* Pods_SoundMeterNotificationServiceExtension.framework in Frameworks */,
+				D9FF0CBF2C3C24EB0037A865 /* LitePayt in Frameworks */,
+				A992E427482121D60FE9F1FC /* Pods_SoundMeter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09388D0F29ED770400161A71 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				09388D1129ED777500161A71 /* SplashScreenViewInputProtocol.swift */,
-				09388D1029ED777500161A71 /* SplashScreenViewOutputProtocol.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		09388D1429ED795100161A71 /* Plists */ = {
-			isa = PBXGroup;
-			children = (
-				09388D1529ED795100161A71 /* OneServiceInfo.plist */,
-				491641D126B4328C002645CF /* GoogleService-Info.plist */,
-				09388D1729ED795100161A71 /* AppFlayerInfo.plist */,
-			);
-			path = Plists;
-			sourceTree = "<group>";
-		};
-		09388D1B29EDAECF00161A71 /* WebViewViewController */ = {
-			isa = PBXGroup;
-			children = (
-				09388D1C29EDAEEB00161A71 /* WebViewViewController.swift */,
-			);
-			path = WebViewViewController;
-			sourceTree = "<group>";
-		};
 		17CC7D6E4516C44CED5D1042 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B282C3DFD31FDE57B13BF9BC /* Pods-SoundMeter.debug.xcconfig */,
-				62579EEEC3AB1AD1092A1CEA /* Pods-SoundMeter.release.xcconfig */,
-				BAA12B80C089610347580142 /* Pods-SoundMeterNotificationServiceExtension.debug.xcconfig */,
-				311F5B23EAF02588B777F897 /* Pods-SoundMeterNotificationServiceExtension.release.xcconfig */,
+				3200A6323D4316AF89F61125 /* Pods-SoundMeter.debug.xcconfig */,
+				8E5E72923874444C546EB422 /* Pods-SoundMeter.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -172,11 +102,11 @@
 		490F41B1262474B500D1A86D = {
 			isa = PBXGroup;
 			children = (
+				D9FF0CC02C3C2F710037A865 /* LitePayt.storekit */,
 				490F41BC262474B500D1A86D /* SoundMeter */,
-				491641C326B41D37002645CF /* SoundMeterNotificationServiceExtension */,
 				490F41BB262474B500D1A86D /* Products */,
-				D647730B5FFEF229CEF5B548 /* Frameworks */,
 				17CC7D6E4516C44CED5D1042 /* Pods */,
+				DCD86D84EC45D1BD0191C065 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				490F41BA262474B500D1A86D /* SoundMeter.app */,
-				491641C226B41D37002645CF /* SoundMeterNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,9 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				491641D026B41E61002645CF /* SoundMeter.entitlements */,
-				09388D1429ED795100161A71 /* Plists */,
-				09388D1B29EDAECF00161A71 /* WebViewViewController */,
-				49ADFEF326B409B0000AD231 /* Splash Controller */,
 				4950C6B4266A27A60051348A /* Noise Level Controller */,
 				49ADFEF226B4081B000AD231 /* Settings Controller */,
 				49E4295C266A640A00D9CB94 /* Records Controller */,
@@ -231,16 +157,6 @@
 				491641B026B41AD1002645CF /* wave-animation.json */,
 			);
 			path = "Lottie Animation";
-			sourceTree = "<group>";
-		};
-		491641C326B41D37002645CF /* SoundMeterNotificationServiceExtension */ = {
-			isa = PBXGroup;
-			children = (
-				113FC48329EF54AB0058A95C /* SoundMeterNotificationServiceExtension.entitlements */,
-				491641C426B41D37002645CF /* NotificationService.swift */,
-				491641C626B41D37002645CF /* Info.plist */,
-			);
-			path = SoundMeterNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		4950C6B3266A26B80051348A /* Config Files */ = {
@@ -279,16 +195,6 @@
 			path = "Settings Controller";
 			sourceTree = "<group>";
 		};
-		49ADFEF326B409B0000AD231 /* Splash Controller */ = {
-			isa = PBXGroup;
-			children = (
-				09388D0F29ED770400161A71 /* Protocols */,
-				49ADFEF426B409C5000AD231 /* SplashViewController.swift */,
-				09388D0D29ED6E8700161A71 /* SpashScreenViewModel.swift */,
-			);
-			path = "Splash Controller";
-			sourceTree = "<group>";
-		};
 		49ADFEFA26B4166E000AD231 /* Table Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,11 +220,10 @@
 			path = "Records Controller";
 			sourceTree = "<group>";
 		};
-		D647730B5FFEF229CEF5B548 /* Frameworks */ = {
+		DCD86D84EC45D1BD0191C065 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEB677575FDB79F7AD492C52 /* Pods_SoundMeter.framework */,
-				EC4C2B8C8D61D9EBC0B49221 /* Pods_SoundMeterNotificationServiceExtension.framework */,
+				43FD5E8B6FAFDC5A92A8AF99 /* Pods_SoundMeter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -330,42 +235,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 490F41CE262474B700D1A86D /* Build configuration list for PBXNativeTarget "SoundMeter" */;
 			buildPhases = (
-				40F96BF5E032A8495F5291AC /* [CP] Check Pods Manifest.lock */,
+				1AC98E63DF128DA0F227145C /* [CP] Check Pods Manifest.lock */,
 				490F41B6262474B500D1A86D /* Sources */,
 				490F41B7262474B500D1A86D /* Frameworks */,
 				490F41B8262474B500D1A86D /* Resources */,
 				491641CA26B41D37002645CF /* Embed App Extensions */,
-				1C822F409B31AEB510D64E5C /* [CP] Embed Pods Frameworks */,
-				982E503FF320FF50C1992066 /* [CP] Copy Pods Resources */,
+				44EE9410CF126040CEC78FA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				491641C826B41D37002645CF /* PBXTargetDependency */,
 			);
 			name = SoundMeter;
+			packageProductDependencies = (
+				D9FF0CBE2C3C24EB0037A865 /* LitePayt */,
+			);
 			productName = SoundMeter;
 			productReference = 490F41BA262474B500D1A86D /* SoundMeter.app */;
 			productType = "com.apple.product-type.application";
-		};
-		491641C126B41D37002645CF /* SoundMeterNotificationServiceExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 491641CD26B41D37002645CF /* Build configuration list for PBXNativeTarget "SoundMeterNotificationServiceExtension" */;
-			buildPhases = (
-				1A185BA7686CE02A5536B88B /* [CP] Check Pods Manifest.lock */,
-				491641BE26B41D37002645CF /* Sources */,
-				491641BF26B41D37002645CF /* Frameworks */,
-				491641C026B41D37002645CF /* Resources */,
-				4B9DE58293844245971C73D0 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SoundMeterNotificationServiceExtension;
-			productName = OneSignalNotificationServiceExtension;
-			productReference = 491641C226B41D37002645CF /* SoundMeterNotificationServiceExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -379,9 +266,6 @@
 					490F41B9262474B500D1A86D = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					491641C126B41D37002645CF = {
-						CreatedOnToolsVersion = 12.5.1;
-					};
 				};
 			};
 			buildConfigurationList = 490F41B5262474B500D1A86D /* Build configuration list for PBXProject "SoundMeter" */;
@@ -393,12 +277,14 @@
 				Base,
 			);
 			mainGroup = 490F41B1262474B500D1A86D;
+			packageReferences = (
+				D9FF0CBD2C3C24EB0037A865 /* XCLocalSwiftPackageReference "LitePayt" */,
+			);
 			productRefGroup = 490F41BB262474B500D1A86D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				490F41B9262474B500D1A86D /* SoundMeter */,
-				491641C126B41D37002645CF /* SoundMeterNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -408,66 +294,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FF0CC12C3C2F710037A865 /* LitePayt.storekit in Resources */,
 				490F41CA262474B700D1A86D /* LaunchScreen.storyboard in Resources */,
 				490F41C7262474B700D1A86D /* Assets.xcassets in Resources */,
-				491641D226B4328C002645CF /* GoogleService-Info.plist in Resources */,
-				09388D1829ED795100161A71 /* OneServiceInfo.plist in Resources */,
 				490F41C5262474B500D1A86D /* Main.storyboard in Resources */,
-				09388D1A29ED795100161A71 /* AppFlayerInfo.plist in Resources */,
 				491641B126B41AD1002645CF /* wave-animation.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		491641C026B41D37002645CF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A185BA7686CE02A5536B88B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SoundMeterNotificationServiceExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1C822F409B31AEB510D64E5C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		40F96BF5E032A8495F5291AC /* [CP] Check Pods Manifest.lock */ = {
+		1AC98E63DF128DA0F227145C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -489,38 +327,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B9DE58293844245971C73D0 /* [CP] Copy Pods Resources */ = {
+		44EE9410CF126040CEC78FA5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundMeterNotificationServiceExtension/Pods-SoundMeterNotificationServiceExtension-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundMeterNotificationServiceExtension/Pods-SoundMeterNotificationServiceExtension-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundMeterNotificationServiceExtension/Pods-SoundMeterNotificationServiceExtension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		982E503FF320FF50C1992066 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundMeter/Pods-SoundMeter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -538,40 +359,19 @@
 				49ADFF0126B4168D000AD231 /* SettingsViewController.swift in Sources */,
 				4950C6AE266A265A0051348A /* GradientColor.swift in Sources */,
 				49ADFEFF26B41686000AD231 /* Settings.swift in Sources */,
-				49ADFEF526B409C5000AD231 /* SplashViewController.swift in Sources */,
 				49ADFEFD26B41680000AD231 /* SettingsTableCell.swift in Sources */,
-				09388D1229ED777500161A71 /* SplashScreenViewOutputProtocol.swift in Sources */,
 				4950C6B2266A26B50051348A /* Config.swift in Sources */,
-				09388D0E29ED6E8700161A71 /* SpashScreenViewModel.swift in Sources */,
 				490F422026247BFB00D1A86D /* UIColorExtension.swift in Sources */,
 				492E88F82629D245007F861A /* DesignableView.swift in Sources */,
-				09388D1329ED777500161A71 /* SplashScreenViewInputProtocol.swift in Sources */,
 				490F41BE262474B500D1A86D /* AppDelegate.swift in Sources */,
 				490F421B26247AE500D1A86D /* CameraButton.swift in Sources */,
 				4965380126B03D2F006C54B8 /* RecordsCell.swift in Sources */,
 				490F41C0262474B500D1A86D /* SceneDelegate.swift in Sources */,
 				4950C6B1266A26B50051348A /* Constants.swift in Sources */,
-				09388D1D29EDAEEB00161A71 /* WebViewViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		491641BE26B41D37002645CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				491641C526B41D37002645CF /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		491641C826B41D37002645CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 491641C126B41D37002645CF /* SoundMeterNotificationServiceExtension */;
-			targetProxy = 491641C726B41D37002645CF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		490F41C3262474B500D1A86D /* Main.storyboard */ = {
@@ -711,28 +511,32 @@
 		};
 		490F41CF262474B700D1A86D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B282C3DFD31FDE57B13BF9BC /* Pods-SoundMeter.debug.xcconfig */;
+			baseConfigurationReference = 3200A6323D4316AF89F61125 /* Pods-SoundMeter.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SoundMeter/SoundMeter.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = G49AR2C5MH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SoundMeter/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sound Analyser";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avdevelopment1.soundanalyser1;
+				PRODUCT_BUNDLE_IDENTIFIER = audioAnalyzer.movrp.k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -740,74 +544,31 @@
 		};
 		490F41D0262474B700D1A86D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62579EEEC3AB1AD1092A1CEA /* Pods-SoundMeter.release.xcconfig */;
+			baseConfigurationReference = 8E5E72923874444C546EB422 /* Pods-SoundMeter.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SoundMeter/SoundMeter.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = G49AR2C5MH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SoundMeter/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sound Analyser";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avdevelopment1.soundanalyser1;
+				PRODUCT_BUNDLE_IDENTIFIER = audioAnalyzer.movrp.k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		491641CB26B41D37002645CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAA12B80C089610347580142 /* Pods-SoundMeterNotificationServiceExtension.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SoundMeterNotificationServiceExtension/SoundMeterNotificationServiceExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = G49AR2C5MH;
-				INFOPLIST_FILE = SoundMeterNotificationServiceExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avdevelopment1.soundanalyser1.SSSoundMeterNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		491641CC26B41D37002645CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 311F5B23EAF02588B777F897 /* Pods-SoundMeterNotificationServiceExtension.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SoundMeterNotificationServiceExtension/SoundMeterNotificationServiceExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = G49AR2C5MH;
-				INFOPLIST_FILE = SoundMeterNotificationServiceExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.avdevelopment1.soundanalyser1.SSSoundMeterNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -834,16 +595,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		491641CD26B41D37002645CF /* Build configuration list for PBXNativeTarget "SoundMeterNotificationServiceExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				491641CB26B41D37002645CF /* Debug */,
-				491641CC26B41D37002645CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D9FF0CBD2C3C24EB0037A865 /* XCLocalSwiftPackageReference "LitePayt" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = LitePayt;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9FF0CBE2C3C24EB0037A865 /* LitePayt */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LitePayt;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 490F41B2262474B500D1A86D /* Project object */;
 }

@@ -12,14 +12,7 @@ target 'SoundMeter' do
   pod 'DTGradientButton'
   pod 'CleanyModal'
   pod 'MKRingProgressView'
-  pod 'IOSAppLogicFramework', :git => 'https://github.com/arrchaos/iosAppLogic.git'
-    
-end
-
-target 'SoundMeterNotificationServiceExtension' do
-  use_frameworks!
-  pod 'IOSAppLogicFramework', :git => 'https://github.com/arrchaos/iosAppLogic.git'
-
+  
 end
 
 post_install do |installer|
