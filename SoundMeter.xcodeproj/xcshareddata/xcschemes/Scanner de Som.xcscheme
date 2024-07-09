@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "490F41B9262474B500D1A86D"
-               BuildableName = "SoundMeter.app"
-               BlueprintName = "SoundMeter"
+               BuildableName = "Scanner de Som.app"
+               BlueprintName = "Scanner de Som"
                ReferencedContainer = "container:SoundMeter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "490F41B9262474B500D1A86D"
-            BuildableName = "SoundMeter.app"
-            BlueprintName = "SoundMeter"
+            BuildableName = "Scanner de Som.app"
+            BlueprintName = "Scanner de Som"
             ReferencedContainer = "container:SoundMeter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "490F41B9262474B500D1A86D"
-            BuildableName = "SoundMeter.app"
-            BlueprintName = "SoundMeter"
+            BuildableName = "Scanner de Som.app"
+            BlueprintName = "Scanner de Som"
             ReferencedContainer = "container:SoundMeter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

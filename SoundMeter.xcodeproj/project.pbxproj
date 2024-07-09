@@ -231,9 +231,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		490F41B9262474B500D1A86D /* SoundMeter */ = {
+		490F41B9262474B500D1A86D /* Scanner de Som */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 490F41CE262474B700D1A86D /* Build configuration list for PBXNativeTarget "SoundMeter" */;
+			buildConfigurationList = 490F41CE262474B700D1A86D /* Build configuration list for PBXNativeTarget "Scanner de Som" */;
 			buildPhases = (
 				1AC98E63DF128DA0F227145C /* [CP] Check Pods Manifest.lock */,
 				490F41B6262474B500D1A86D /* Sources */,
@@ -246,7 +246,7 @@
 			);
 			dependencies = (
 			);
-			name = SoundMeter;
+			name = "Scanner de Som";
 			packageProductDependencies = (
 				D9FF0CBE2C3C24EB0037A865 /* LitePayt */,
 			);
@@ -284,7 +284,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				490F41B9262474B500D1A86D /* SoundMeter */,
+				490F41B9262474B500D1A86D /* Scanner de Som */,
 			);
 		};
 /* End PBXProject section */
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		490F41CE262474B700D1A86D /* Build configuration list for PBXNativeTarget "SoundMeter" */ = {
+		490F41CE262474B700D1A86D /* Build configuration list for PBXNativeTarget "Scanner de Som" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				490F41CF262474B700D1A86D /* Debug */,
