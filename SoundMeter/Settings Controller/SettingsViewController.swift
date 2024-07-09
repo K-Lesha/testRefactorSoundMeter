@@ -36,34 +36,9 @@ class BlankOptimizeFestiveWall: UIViewController {
         }
     }
     
-    func outloudExpediteGroundbreaking() {
-        guard MFMailComposeViewController.canSendMail() else {
-            return
-        }
-        
-        let helplessPlayEmpatheticChallenge = MFMailComposeViewController()
-        helplessPlayEmpatheticChallenge.mailComposeDelegate = self
-        helplessPlayEmpatheticChallenge.setToRecipients([eatoutRewriteInventiveInfo])
-        helplessPlayEmpatheticChallenge.setSubject("Noise Level - Question")
-        helplessPlayEmpatheticChallenge.setMessageBody("Hello!\n\nSubject:\n\nName:\n\nMessage:\n\n", isHTML: false)
-        present(helplessPlayEmpatheticChallenge, animated: true)
-    }
-    
     func dodgeOutputDeliberate() {
         let circumstanceDecodeBrilliant = UIImpactFeedbackGenerator(style: .medium)
         circumstanceDecodeBrilliant.impactOccurred()
-    }
-    
-    func turnoffStartEncouragingReport() {
-//        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
-        
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for:.default)
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.layoutIfNeeded()
-        
-        if #available(iOS 13.0, *) {
-            overrideUserInterfaceStyle = .light
-        }
     }
 }
 
@@ -129,4 +104,35 @@ extension BlankOptimizeFestiveWall: MFMailComposeViewControllerDelegate {
         }
         controller.dismiss(animated: true)
     }
+}
+
+
+extension BlankOptimizeFestiveWall {
+    
+    
+    func outloudExpediteGroundbreaking() {
+        guard MFMailComposeViewController.canSendMail() else {
+            return
+        }
+        
+        let helplessPlayEmpatheticChallenge = MFMailComposeViewController()
+        helplessPlayEmpatheticChallenge.mailComposeDelegate = self
+        helplessPlayEmpatheticChallenge.setToRecipients([eatoutRewriteInventiveInfo])
+        helplessPlayEmpatheticChallenge.setSubject("Noise Level - Question")
+        helplessPlayEmpatheticChallenge.setMessageBody("Hello!\n\nSubject:\n\nName:\n\nMessage:\n\n", isHTML: false)
+        present(helplessPlayEmpatheticChallenge, animated: true)
+    } 
+    
+    
+    func turnoffStartEncouragingReport() {
+//        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
+        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for:.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.layoutIfNeeded()
+        
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
+    } 
 }

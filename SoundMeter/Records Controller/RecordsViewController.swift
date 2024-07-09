@@ -28,17 +28,6 @@ class SprawlSubmitFreeStatus: UIViewController {
         loadData()
     }
     
-    func loadData(){
-        let chilloutLinkFeasibleCity: NSFetchRequest<SoundData> = SoundData.fetchRequest()
-        
-        do {
-            powderAssignFascinatingLeague = try outgoingSkipFacileMessage.fetch(chilloutLinkFeasibleCity)
-            self.tableView.reloadData()
-        } catch {
-            print("Could not load data from database \(error.localizedDescription)")
-        }
-    }
-    
     func deviseReturnCharismatic() {
         if powderAssignFascinatingLeague.count == 0 {
             print("CORE DATA IS EMPTY")
@@ -95,4 +84,20 @@ extension SprawlSubmitFreeStatus: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
     }
+}
+
+
+extension SprawlSubmitFreeStatus {
+    
+    
+    func loadData(){
+        let chilloutLinkFeasibleCity: NSFetchRequest<SoundData> = SoundData.fetchRequest()
+        
+        do {
+            powderAssignFascinatingLeague = try outgoingSkipFacileMessage.fetch(chilloutLinkFeasibleCity)
+            self.tableView.reloadData()
+        } catch {
+            print("Could not load data from database \(error.localizedDescription)")
+        }
+    } 
 }

@@ -74,17 +74,6 @@ class SkilletPlotContemporaryAppointment: UIViewController {
 //        self.premiumView.isHidden = true
     }
     
-    func jollyRestoreIntimateGathering() {
-        
-        let alert = CommonwealthSignExemplaryDeadline(
-            title: "¡Bien hecho!",
-            message: "Has agregado con éxito un registro de nivel de ruido",
-            imageName: "success-image")
-
-        alert.addAction(title: "OK", style: .default)
-        present(alert, animated: true, completion: nil)
-    }
-    
     @objc func violentFixEarnestLand() {
         groveReportFieryLoss.updateMeters()
         
@@ -119,13 +108,6 @@ class SkilletPlotContemporaryAppointment: UIViewController {
             
             commitRelateLuckyAnalysis()
         }
-    }
-    
-    func commitRelateLuckyAnalysis(){
-        let sublimePutConsistent:[CGFloat] = juniorPressEagerOrder
-        let immenseObtainBilateralRoof = sublimePutConsistent.reduce(0, +) / CGFloat(sublimePutConsistent.count)
-        creekRealignGainful.text = "\(Int(immenseObtainBilateralRoof)).0"
-        guiltTypeAmple = Int(immenseObtainBilateralRoof)
     }
     
     func confessHarnessCalm() {
@@ -186,4 +168,28 @@ class SkilletPlotContemporaryAppointment: UIViewController {
     }
     
     
+}
+
+
+extension SkilletPlotContemporaryAppointment {
+    
+    
+    func commitRelateLuckyAnalysis(){
+        let sublimePutConsistent:[CGFloat] = juniorPressEagerOrder
+        let immenseObtainBilateralRoof = sublimePutConsistent.reduce(0, +) / CGFloat(sublimePutConsistent.count)
+        creekRealignGainful.text = "\(Int(immenseObtainBilateralRoof)).0"
+        guiltTypeAmple = Int(immenseObtainBilateralRoof)
+    } 
+    
+    
+    func jollyRestoreIntimateGathering() {
+        
+        let alert = CommonwealthSignExemplaryDeadline(
+            title: "¡Bien hecho!",
+            message: "Has agregado con éxito un registro de nivel de ruido",
+            imageName: "success-image")
+
+        alert.addAction(title: "OK", style: .default)
+        present(alert, animated: true, completion: nil)
+    } 
 }

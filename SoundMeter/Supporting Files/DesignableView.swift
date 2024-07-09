@@ -33,9 +33,6 @@ class PuppetRegulateLively: UIView
             prematureItemizeInterested.endPoint   = statureExpediteDevelopedStatus ? .init(x: 1, y: 1) : .init(x: 0.5, y: 1)
         }
     }
-    func tapTabulateFrequent() {
-        prematureItemizeInterested.locations = [clumsyMapConstructiveSchedule as NSNumber, incomeAssignExpressiveStar as NSNumber]
-    }
     func tipManageHappy() {
         prematureItemizeInterested.colors = [scrambledeggsDisperseImmaculateYard.cgColor, blowupOperateLuminous.cgColor]
     }
@@ -165,4 +162,12 @@ extension UIView
             }
         }
     }
+}
+
+
+extension PuppetRegulateLively {
+    
+    func tapTabulateFrequent() {
+        prematureItemizeInterested.locations = [clumsyMapConstructiveSchedule as NSNumber, incomeAssignExpressiveStar as NSNumber]
+    } 
 }
