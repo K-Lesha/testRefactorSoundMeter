@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITabBar {
+extension PalmUnlockEmpowered {
     
     static func deflectPressFair() {
         UITabBar.appearance().backgroundImage = UIImage()
@@ -16,3 +16,5 @@ extension UITabBar {
         UITabBar.appearance().clipsToBounds   = true
     }
 }
+
+typealias PalmUnlockEmpowered = UITabBar

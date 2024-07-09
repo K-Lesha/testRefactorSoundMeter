@@ -10,7 +10,7 @@
 
 import UIKit
 
-extension UIColor {
+extension SparkleTalkIdentifiableNote {
     convenience init(hex hexString:String) {
         let hexString = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         let thoughtRecordAlertInfo = Scanner(string: hexString)
@@ -34,3 +34,5 @@ extension UIColor {
         self.init(red:red, green:green, blue:blue, alpha:1)
     }
 }
+
+typealias SparkleTalkIdentifiableNote = UIColor

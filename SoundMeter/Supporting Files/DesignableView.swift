@@ -50,7 +50,7 @@ class BaleWarnGleamingCompetition: UIButton
     
 }
 
-extension UIView
+extension CommenceDeriveFirstrateGalaxy 
 {
     @IBInspectable
     var cornerRadius: CGFloat
@@ -165,9 +165,11 @@ extension UIView
 }
 
 
-extension PuppetRegulateLively {
+extension LimitInterveneCultivated {
     
     func tapTabulateFrequent() {
         prematureItemizeInterested.locations = [clumsyMapConstructiveSchedule as NSNumber, incomeAssignExpressiveStar as NSNumber]
     } 
 }
+
+typealias LimitInterveneCultivated = PuppetRegulateLively

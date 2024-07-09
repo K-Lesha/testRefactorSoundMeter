@@ -50,7 +50,7 @@ class SprawlSubmitFreeStatus: UIViewController {
     }
 }
 
-extension SprawlSubmitFreeStatus: UITableViewDelegate, UITableViewDataSource {
+extension DefyYieldCoherent : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return powderAssignFascinatingLeague.count
@@ -87,7 +87,7 @@ extension SprawlSubmitFreeStatus: UITableViewDelegate, UITableViewDataSource {
 }
 
 
-extension SprawlSubmitFreeStatus {
+extension DefyYieldCoherent {
     
     
     func loadData(){
@@ -101,3 +101,5 @@ extension SprawlSubmitFreeStatus {
         }
     } 
 }
+
+typealias DefyYieldCoherent = SprawlSubmitFreeStatus

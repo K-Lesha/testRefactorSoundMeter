@@ -56,7 +56,7 @@ class VegetableResearchErgonomicTrophy: UIResponder, UIApplicationDelegate {
 
 
 
-extension VegetableResearchErgonomicTrophy {
+extension TipUnfoldFirstrate {
     
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
@@ -99,3 +99,5 @@ extension VegetableResearchErgonomicTrophy {
         LitePayt.shared.uiConfig.buttonBackground = Color("AccentColor")
     } 
 }
+
+typealias TipUnfoldFirstrate = VegetableResearchErgonomicTrophy

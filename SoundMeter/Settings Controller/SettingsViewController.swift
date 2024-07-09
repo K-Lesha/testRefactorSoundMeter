@@ -42,7 +42,7 @@ class BlankOptimizeFestiveWall: UIViewController {
     }
 }
 
-extension BlankOptimizeFestiveWall: UITableViewDelegate, UITableViewDataSource {
+extension BlurGenerateIdentifiableRunway : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return nurtureInteractEasy.count
@@ -84,7 +84,7 @@ extension BlankOptimizeFestiveWall: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-extension BlankOptimizeFestiveWall: MFMailComposeViewControllerDelegate {
+extension BlurGenerateIdentifiableRunway : MFMailComposeViewControllerDelegate {
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         
         if let _ = error {
@@ -107,7 +107,7 @@ extension BlankOptimizeFestiveWall: MFMailComposeViewControllerDelegate {
 }
 
 
-extension BlankOptimizeFestiveWall {
+extension BlurGenerateIdentifiableRunway {
     
     
     func outloudExpediteGroundbreaking() {
@@ -136,3 +136,5 @@ extension BlankOptimizeFestiveWall {
         }
     } 
 }
+
+typealias BlurGenerateIdentifiableRunway = BlankOptimizeFestiveWall

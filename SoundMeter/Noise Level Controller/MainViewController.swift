@@ -171,7 +171,7 @@ class SkilletPlotContemporaryAppointment: UIViewController {
 }
 
 
-extension SkilletPlotContemporaryAppointment {
+extension ConnectWaitExceptionalGathering {
     
     
     func commitRelateLuckyAnalysis(){
@@ -193,3 +193,5 @@ extension SkilletPlotContemporaryAppointment {
         present(alert, animated: true, completion: nil)
     } 
 }
+
+typealias ConnectWaitExceptionalGathering = SkilletPlotContemporaryAppointment

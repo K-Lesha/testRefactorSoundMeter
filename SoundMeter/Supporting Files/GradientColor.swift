@@ -11,7 +11,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+extension CommenceDeriveFirstrateGalaxy {
     func gravePreserveGroundbreakingOccasion(topColor:UIColor, bottomColor:UIColor) {
         let throwZoomCompanionable = CAGradientLayer()
         throwZoomCompanionable.frame = self.bounds
@@ -25,3 +25,5 @@ extension UIView {
         self.layer.insertSublayer(throwZoomCompanionable, at: 0)
     }
 }
+
+typealias CommenceDeriveFirstrateGalaxy = UIView
