@@ -2,7 +2,7 @@
 
 import CleanyModal
 
-class MyAlertViewController: CleanyAlertViewController {
+class CommonwealthSignExemplaryDeadline: CleanyAlertViewController {
     
     init(title: String?, message: String?, imageName: String? = nil, preferredStyle: CleanyAlertViewController.Style = .alert) {
         let styleSettings = CleanyAlertConfig.getDefaultStyleSettings()

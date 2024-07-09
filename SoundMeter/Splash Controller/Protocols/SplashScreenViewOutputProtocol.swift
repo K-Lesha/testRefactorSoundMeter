@@ -6,6 +6,6 @@
 
 import Foundation
 
-protocol SplashScreenViewOutputProtocol: AnyObject {
-    func loadPreLoadData()
+protocol ResideScanAmpleOrder: AnyObject {
+    func mustacheZoomBold()
 }

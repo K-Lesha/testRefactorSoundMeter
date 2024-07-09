@@ -4,11 +4,11 @@ import MessageUI
 import UserNotifications
 import LitePayt
 
-class SettingsViewController: UIViewController {
+class BlankOptimizeFestiveWall: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
 
-    var tableContent: [Settings] = Settings.fetchSettings()
+    var nurtureInteractEasy: [FeatCollectCommendable] = FeatCollectCommendable.maternalRecruitGiftedOperation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,16 +16,16 @@ class SettingsViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
-        setupUserInterface()
+        turnoffStartEncouragingReport()
     }
     
-    @IBAction func closeButtonAction(_ sender: Any) {
-        hapticFeedback()
+    @IBAction func ropeinRearrangeInquisitiveClub(_ sender: Any) {
+        dodgeOutputDeliberate()
         self.performSegue(withIdentifier: "go_to_app", sender: self)
     }
     
-    func rateApp() {
-        if let url = URL(string: rateAppUrl){
+    func boardRejectChampion() {
+        if let url = URL(string: murderPassImportant){
             UIApplication.shared.open(url, options: [:], completionHandler: {(result) in
                 if result {
                     print ("Success")
@@ -36,25 +36,25 @@ class SettingsViewController: UIViewController {
         }
     }
     
-    func showMailComposer() {
+    func outloudExpediteGroundbreaking() {
         guard MFMailComposeViewController.canSendMail() else {
             return
         }
         
-        let composer = MFMailComposeViewController()
-        composer.mailComposeDelegate = self
-        composer.setToRecipients([contactEmail])
-        composer.setSubject("Noise Level - Question")
-        composer.setMessageBody("Hello!\n\nSubject:\n\nName:\n\nMessage:\n\n", isHTML: false)
-        present(composer, animated: true)
+        let helplessPlayEmpatheticChallenge = MFMailComposeViewController()
+        helplessPlayEmpatheticChallenge.mailComposeDelegate = self
+        helplessPlayEmpatheticChallenge.setToRecipients([eatoutRewriteInventiveInfo])
+        helplessPlayEmpatheticChallenge.setSubject("Noise Level - Question")
+        helplessPlayEmpatheticChallenge.setMessageBody("Hello!\n\nSubject:\n\nName:\n\nMessage:\n\n", isHTML: false)
+        present(helplessPlayEmpatheticChallenge, animated: true)
     }
     
-    func hapticFeedback() {
-        let generator = UIImpactFeedbackGenerator(style: .medium)
-        generator.impactOccurred()
+    func dodgeOutputDeliberate() {
+        let circumstanceDecodeBrilliant = UIImpactFeedbackGenerator(style: .medium)
+        circumstanceDecodeBrilliant.impactOccurred()
     }
     
-    func setupUserInterface() {
+    func turnoffStartEncouragingReport() {
 //        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
         
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for:.default)
@@ -67,18 +67,18 @@ class SettingsViewController: UIViewController {
     }
 }
 
-extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
+extension BlankOptimizeFestiveWall: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return tableContent.count
+        return nurtureInteractEasy.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "SettingsTableCell", for: indexPath) as! SettingsTableCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LyricsOpenIncredible", for: indexPath) as! LyricsOpenIncredible
         
-        let content = tableContent[indexPath.row]
-        cell.tableContent = content
+        let content = nurtureInteractEasy[indexPath.row]
+        cell.nurtureInteractEasy = content
         
         return cell
     }
@@ -89,10 +89,10 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
 //        let currentCell = tableView.cellForRow(at: indexPath)! as! SettingsTableCell
 
         if indexPath.row == 0 {
-            showMailComposer()
+            outloudExpediteGroundbreaking()
 
         } else if indexPath.row == 1 {
-            rateApp()
+            boardRejectChampion()
 
         } else if indexPath.row == 2 {
             self.dismiss(animated: true) {
@@ -109,7 +109,7 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-extension SettingsViewController: MFMailComposeViewControllerDelegate {
+extension BlankOptimizeFestiveWall: MFMailComposeViewControllerDelegate {
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         
         if let _ = error {

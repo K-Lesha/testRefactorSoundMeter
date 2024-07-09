@@ -8,39 +8,39 @@ import CoreData
 import GaugeSlider
 import LitePayt
 
-class MainViewController: UIViewController {
+class SkilletPlotContemporaryAppointment: UIViewController {
     
-    @IBOutlet weak var dbTrackerView: GaugeSliderView!
-    @IBOutlet weak var minimumLevelLabel: UILabel!
-    @IBOutlet weak var maximumLevelLabel: UILabel!
-    @IBOutlet weak var averageLevelLabel: UILabel!
-    @IBOutlet weak var recordButton: UIButton!
-    @IBOutlet weak var premiumView: UIView!
-    @IBOutlet weak var premiumImage: UIImageView!
-    @IBOutlet weak var premiumButton: UIButton!
+    @IBOutlet weak var survivePrepareEmpathetic: GaugeSliderView!
+    @IBOutlet weak var cordMigrateGainfulOperation: UILabel!
+    @IBOutlet weak var hueUpdateExquisiteBuilding: UILabel!
+    @IBOutlet weak var creekRealignGainful: UILabel!
+    @IBOutlet weak var sackRewriteInstant: UIButton!
+    @IBOutlet weak var reciteAssessEncouraging: UIView!
+    @IBOutlet weak var trashOverseeExceptional: UIImageView!
+    @IBOutlet weak var soleRecruitGuaranteedPlanet: UIButton!
     
-    var managedObjextContext: NSManagedObjectContext!
-    var recorder: AVAudioRecorder!
-    var levelTimer = Timer()
-    var arrayLevel: [CGFloat]! = []
-    let LEVEL_THRESHOLD: Float = -40.0
-    var minimumLevel = CGFloat()
-    var maximumLevel = CGFloat()
-    var averageSoundLevel = Int()
+    var outgoingSkipFacileMessage: NSManagedObjectContext!
+    var groveReportFieryLoss: AVAudioRecorder!
+    var purchaseUndoEnormous = Timer()
+    var juniorPressEagerOrder: [CGFloat]! = []
+    let ThusUpdateBrilliant: Float = -40.0
+    var fleetAdjustCuttingedgePoint = CGFloat()
+    var titleWaitCaptivating = CGFloat()
+    var guiltTypeAmple = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        managedObjextContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        outgoingSkipFacileMessage = (UIApplication.shared.delegate as! VegetableResearchErgonomicTrophy).chorusResultCuriousPark.viewContext
         
-        dbTrackerView.onButtonAction = { [weak self] in
-            self!.addRecord()
+        survivePrepareEmpathetic.onButtonAction = { [weak self] in
+            self!.confessHarnessCalm()
         }
         
-        let documents = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)[0])
-        let url = documents.appendingPathComponent("record.caf")
+        let slotSkipLucky = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)[0])
+        let url = slotSkipLucky.appendingPathComponent("record.caf")
         
-        let recordSettings: [String: Any] = [
+        let comeaboutDisplayHospitable: [String: Any] = [
             AVFormatIDKey:              kAudioFormatAppleIMA4,
             AVSampleRateKey:            44100.0,
             AVNumberOfChannelsKey:      2,
@@ -49,23 +49,23 @@ class MainViewController: UIViewController {
             AVEncoderAudioQualityKey:   AVAudioQuality.max.rawValue
         ]
         
-        let audioSession = AVAudioSession.sharedInstance()
+        let breakdownDrawIrreplaceableMatch = AVAudioSession.sharedInstance()
         do {
-            try audioSession.setCategory(AVAudioSession.Category.playAndRecord)
-            try audioSession.setActive(true)
-            try recorder = AVAudioRecorder(url:url, settings: recordSettings)
+            try breakdownDrawIrreplaceableMatch.setCategory(AVAudioSession.Category.playAndRecord)
+            try breakdownDrawIrreplaceableMatch.setActive(true)
+            try groveReportFieryLoss = AVAudioRecorder(url:url, settings: comeaboutDisplayHospitable)
             
         } catch {
             return
         }
         
-        recorder.prepareToRecord()
-        recorder.isMeteringEnabled = true
-        recorder.record()
+        groveReportFieryLoss.prepareToRecord()
+        groveReportFieryLoss.isMeteringEnabled = true
+        groveReportFieryLoss.record()
         
-        levelTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(levelTimerCallback), userInfo: nil, repeats: true)
+        purchaseUndoEnormous = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(violentFixEarnestLand), userInfo: nil, repeats: true)
         
-        setupUserInterface()
+        turnoffStartEncouragingReport()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -74,9 +74,9 @@ class MainViewController: UIViewController {
 //        self.premiumView.isHidden = true
     }
     
-    func showSuccessAlert() {
+    func jollyRestoreIntimateGathering() {
         
-        let alert = MyAlertViewController(
+        let alert = CommonwealthSignExemplaryDeadline(
             title: "¡Bien hecho!",
             message: "Has agregado con éxito un registro de nivel de ruido",
             imageName: "success-image")
@@ -85,95 +85,95 @@ class MainViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    @objc func levelTimerCallback() {
-        recorder.updateMeters()
+    @objc func violentFixEarnestLand() {
+        groveReportFieryLoss.updateMeters()
         
-        let level = recorder.averagePower(forChannel: 0)
+        let sublimePutConsistent = groveReportFieryLoss.averagePower(forChannel: 0)
         
-        dbTrackerView.value = CGFloat(95+level)
+        survivePrepareEmpathetic.value = CGFloat(95+sublimePutConsistent)
         
-        let detectStatus = dbTrackerView.value
+        let almostJoinDashing = survivePrepareEmpathetic.value
         
-        if detectStatus <= 70 {
-            dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(0.3)
+        if almostJoinDashing <= 70 {
+            survivePrepareEmpathetic.fillPathColor = .systemGreen.withAlphaComponent(0.3)
             //dbResultLabel.text = "Normal conversation"
-            dbTrackerView.placeholder = "Bastante audible"
-        } else if detectStatus >= 70 && detectStatus <= 85 {
-            dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(0.7)
+            survivePrepareEmpathetic.placeholder = "Bastante audible"
+        } else if almostJoinDashing >= 70 && almostJoinDashing <= 85 {
+            survivePrepareEmpathetic.fillPathColor = .systemGreen.withAlphaComponent(0.7)
             //dbResultLabel.text = "City traffic (inside the car)"
-            dbTrackerView.placeholder = "Ruidoso"
-        } else if detectStatus >= 85 {
-            dbTrackerView.fillPathColor = .systemGreen.withAlphaComponent(1)
+            survivePrepareEmpathetic.placeholder = "Ruidoso"
+        } else if almostJoinDashing >= 85 {
+            survivePrepareEmpathetic.fillPathColor = .systemGreen.withAlphaComponent(1)
             //dbResultLabel.text = "Gas-powered lawnmowers\nleaf blowers"
-            dbTrackerView.placeholder = "Extremadamente ruidoso"
+            survivePrepareEmpathetic.placeholder = "Extremadamente ruidoso"
         }
         
-        if dbTrackerView.value > 0 {
-            arrayLevel.append(dbTrackerView.value)
+        if survivePrepareEmpathetic.value > 0 {
+            juniorPressEagerOrder.append(survivePrepareEmpathetic.value)
             
-            minimumLevel = arrayLevel.min()!
-            maximumLevel = arrayLevel.max()!
+            fleetAdjustCuttingedgePoint = juniorPressEagerOrder.min()!
+            titleWaitCaptivating = juniorPressEagerOrder.max()!
             
-            minimumLevelLabel.text = "\(minimumLevel)"
-            maximumLevelLabel.text = "\(maximumLevel)"
+            cordMigrateGainfulOperation.text = "\(fleetAdjustCuttingedgePoint)"
+            hueUpdateExquisiteBuilding.text = "\(titleWaitCaptivating)"
             
-            averageLevel()
+            commitRelateLuckyAnalysis()
         }
     }
     
-    func averageLevel(){
-        let level:[CGFloat] = arrayLevel
-        let levelAvg = level.reduce(0, +) / CGFloat(level.count)
-        averageLevelLabel.text = "\(Int(levelAvg)).0"
-        averageSoundLevel = Int(levelAvg)
+    func commitRelateLuckyAnalysis(){
+        let sublimePutConsistent:[CGFloat] = juniorPressEagerOrder
+        let immenseObtainBilateralRoof = sublimePutConsistent.reduce(0, +) / CGFloat(sublimePutConsistent.count)
+        creekRealignGainful.text = "\(Int(immenseObtainBilateralRoof)).0"
+        guiltTypeAmple = Int(immenseObtainBilateralRoof)
     }
     
-    func addRecord() {
+    func confessHarnessCalm() {
         
-        let now = Date()
+        let wailStreamlineBeneficialGathering = Date()
         let formatter = DateFormatter()
         formatter.timeZone = TimeZone.current
         formatter.dateFormat = "dd, MMMM"
         formatter.locale = Locale(identifier: "es_ES")
-        let dateString = formatter.string(from: now)
+        let gearedtoRebuildFavorable = formatter.string(from: wailStreamlineBeneficialGathering)
         
-        let dbItem = SoundData(context: self.managedObjextContext)
-        dbItem.maximum = Int16(self.maximumLevel)
-        dbItem.minimum = Int16(self.minimumLevel)
-        dbItem.average = Int16(self.averageSoundLevel)
-        dbItem.currentDate = dateString
+        let priestRebuildBestReligion = SoundData(context: self.outgoingSkipFacileMessage)
+        priestRebuildBestReligion.maximum = Int16(self.titleWaitCaptivating)
+        priestRebuildBestReligion.minimum = Int16(self.fleetAdjustCuttingedgePoint)
+        priestRebuildBestReligion.average = Int16(self.guiltTypeAmple)
+        priestRebuildBestReligion.currentDate = gearedtoRebuildFavorable
         
-        self.showSuccessAlert()
+        self.jollyRestoreIntimateGathering()
         
         do {
-            try self.managedObjextContext.save()
+            try self.outgoingSkipFacileMessage.save()
         } catch {
             print("Could not save data \(error.localizedDescription)")
         }
     }
     
     
-    @IBAction func addToRecords(_ sender: Any) {
+    @IBAction func smuggleReportIntegratedCountry(_ sender: Any) {
         LitePayt.shared.runAvailable { _ in
-            self.addRecord()
+            self.confessHarnessCalm()
         }
     }
     
-    func setupUserInterface() {
+    func turnoffStartEncouragingReport() {
 //        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
         
-        dbTrackerView.unit = " dB"
-        dbTrackerView.placeholderColor = .black
-        dbTrackerView.placeholderFont = UIFont(name: "Menlo", size: 16) ?? .systemFont(ofSize: 16)
-        dbTrackerView.unitColor = .systemGreen
-        dbTrackerView.blankPathColor = .systemGray.withAlphaComponent(0.4)
-        dbTrackerView.indicatorColor = .systemGreen
-        dbTrackerView.customControlButtonVisible = false
-        dbTrackerView.unitIndicatorFont = UIFont(name: "Menlo", size: 0.1)  ?? .systemFont(ofSize: 0.1)
-        dbTrackerView.unitFont = UIFont(name: "Menlo", size: 67)  ?? .systemFont(ofSize: 67)
+        survivePrepareEmpathetic.unit = " dB"
+        survivePrepareEmpathetic.placeholderColor = .black
+        survivePrepareEmpathetic.placeholderFont = UIFont(name: "Menlo", size: 16) ?? .systemFont(ofSize: 16)
+        survivePrepareEmpathetic.unitColor = .systemGreen
+        survivePrepareEmpathetic.blankPathColor = .systemGray.withAlphaComponent(0.4)
+        survivePrepareEmpathetic.indicatorColor = .systemGreen
+        survivePrepareEmpathetic.customControlButtonVisible = false
+        survivePrepareEmpathetic.unitIndicatorFont = UIFont(name: "Menlo", size: 0.1)  ?? .systemFont(ofSize: 0.1)
+        survivePrepareEmpathetic.unitFont = UIFont(name: "Menlo", size: 67)  ?? .systemFont(ofSize: 67)
 
-        recordButton.layer.cornerRadius = recordButton.frame.height/2
-        recordButton.layer.masksToBounds = true
+        sackRewriteInstant.layer.cornerRadius = sackRewriteInstant.frame.height/2
+        sackRewriteInstant.layer.masksToBounds = true
 //        premiumView.layer.cornerRadius = premiumView.frame.height/2
 //        premiumView.layer.masksToBounds = true
 //        

@@ -4,24 +4,24 @@ import UIKit
 import CoreData
 import MKRingProgressView
 
-class RecordsViewController: UIViewController {
+class SprawlSubmitFreeStatus: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var alertLabel: UILabel!
+    @IBOutlet weak var gotogetherFinishDeftClient: UILabel!
     
-    var managedObjextContext: NSManagedObjectContext!
+    var outgoingSkipFacileMessage: NSManagedObjectContext!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        managedObjextContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        outgoingSkipFacileMessage = (UIApplication.shared.delegate as! VegetableResearchErgonomicTrophy).chorusResultCuriousPark.viewContext
         loadData()
         
         tableView.dataSource = self
         tableView.delegate = self
 
-        checkCoreData()
-        setupUserInterface()
+        deviseReturnCharismatic()
+        turnoffStartEncouragingReport()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -29,26 +29,26 @@ class RecordsViewController: UIViewController {
     }
     
     func loadData(){
-        let dbDataRequest: NSFetchRequest<SoundData> = SoundData.fetchRequest()
+        let chilloutLinkFeasibleCity: NSFetchRequest<SoundData> = SoundData.fetchRequest()
         
         do {
-            dbDataValues = try managedObjextContext.fetch(dbDataRequest)
+            powderAssignFascinatingLeague = try outgoingSkipFacileMessage.fetch(chilloutLinkFeasibleCity)
             self.tableView.reloadData()
         } catch {
             print("Could not load data from database \(error.localizedDescription)")
         }
     }
     
-    func checkCoreData() {
-        if dbDataValues.count == 0 {
+    func deviseReturnCharismatic() {
+        if powderAssignFascinatingLeague.count == 0 {
             print("CORE DATA IS EMPTY")
-            alertLabel.isHidden = false
+            gotogetherFinishDeftClient.isHidden = false
         } else {
-            alertLabel.isHidden = true
+            gotogetherFinishDeftClient.isHidden = true
         }
     }
     
-    func setupUserInterface() {
+    func turnoffStartEncouragingReport() {
 //        view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
         
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for:.default)
@@ -61,33 +61,33 @@ class RecordsViewController: UIViewController {
     }
 }
 
-extension RecordsViewController: UITableViewDelegate, UITableViewDataSource {
+extension SprawlSubmitFreeStatus: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dbDataValues.count
+        return powderAssignFascinatingLeague.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "RecordsCell", for: indexPath) as! RecordsCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CountrysideRewindInternal", for: indexPath) as! CountrysideRewindInternal
         
-        let dbItem = dbDataValues[indexPath.row]
+        let priestRebuildBestReligion = powderAssignFascinatingLeague[indexPath.row]
         
         
         
-        cell.minimumLabel.text = "Mínimo: \(dbItem.minimum)dB"
-        cell.maximumLabel.text = "Máximo: \(dbItem.maximum)dB"
-        cell.averagelLabel.text = "Promedio: \(dbItem.average)dB"
+        cell.uniqueDevelopConciseSport.text = "Mínimo: \(priestRebuildBestReligion.minimum)dB"
+        cell.proceedAssessAppreciative.text = "Máximo: \(priestRebuildBestReligion.maximum)dB"
+        cell.witherRecoverContemporaryMeeting.text = "Promedio: \(priestRebuildBestReligion.average)dB"
         
-        let dateFormatter = DateFormatter()
-        dateFormatter.locale = Locale(identifier: "es_ES")
-        dateFormatter.dateStyle = .medium
+        let sturdyWaveInvincible = DateFormatter()
+        sturdyWaveInvincible.locale = Locale(identifier: "es_ES")
+        sturdyWaveInvincible.dateStyle = .medium
 
-        cell.datelabel.text = dbItem.currentDate
+        cell.lookaroundUnpackLegendaryAircraft.text = priestRebuildBestReligion.currentDate
         
-        cell.minimumProgressView.progress = Double(dbItem.minimum)/100
-        cell.maximumProgressView.progress = Double(dbItem.maximum)/100
-        cell.averageProgressView.progress = Double(dbItem.average)/100
+        cell.scantExplainImpressive.progress = Double(priestRebuildBestReligion.minimum)/100
+        cell.cautionExpandLucky.progress = Double(priestRebuildBestReligion.maximum)/100
+        cell.contractOrderEffective.progress = Double(priestRebuildBestReligion.average)/100
         
         return cell
     }

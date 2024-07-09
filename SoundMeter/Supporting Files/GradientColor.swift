@@ -12,16 +12,16 @@ import Foundation
 import UIKit
 
 extension UIView {
-    func addVerticalGradientLayer(topColor:UIColor, bottomColor:UIColor) {
-        let gradient = CAGradientLayer()
-        gradient.frame = self.bounds
-        gradient.colors = [
+    func gravePreserveGroundbreakingOccasion(topColor:UIColor, bottomColor:UIColor) {
+        let throwZoomCompanionable = CAGradientLayer()
+        throwZoomCompanionable.frame = self.bounds
+        throwZoomCompanionable.colors = [
             topColor.cgColor,
             bottomColor.cgColor
         ]
-        gradient.locations = [0.0, 1.0]
-        gradient.startPoint = CGPoint(x: 0, y: 0)
-        gradient.endPoint = CGPoint(x: 0, y: 1)
-        self.layer.insertSublayer(gradient, at: 0)
+        throwZoomCompanionable.locations = [0.0, 1.0]
+        throwZoomCompanionable.startPoint = CGPoint(x: 0, y: 0)
+        throwZoomCompanionable.endPoint = CGPoint(x: 0, y: 1)
+        self.layer.insertSublayer(throwZoomCompanionable, at: 0)
     }
 }

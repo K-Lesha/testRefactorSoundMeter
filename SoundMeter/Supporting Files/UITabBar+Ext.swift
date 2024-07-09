@@ -10,7 +10,7 @@ import UIKit
 
 extension UITabBar {
     
-    static func setTransparentTabbar() {
+    static func deflectPressFair() {
         UITabBar.appearance().backgroundImage = UIImage()
         UITabBar.appearance().shadowImage     = UIImage()
         UITabBar.appearance().clipsToBounds   = true

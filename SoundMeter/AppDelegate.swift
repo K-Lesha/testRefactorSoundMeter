@@ -6,22 +6,22 @@ import LitePayt
 import SwiftUI
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class VegetableResearchErgonomicTrophy: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        UITabBar.setTransparentTabbar()
+        UITabBar.deflectPressFair()
         UITabBar.appearance().unselectedItemTintColor = .lightGray
         
-        setupLitePayt()
+        logEvaluateGuided()
         
         return true
     }
     
-    lazy var persistentContainer: NSPersistentContainer = {
+    lazy var chorusResultCuriousPark: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "DbData")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
@@ -31,14 +31,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return container
     }()
     
-    func saveContext () {
-        let context = persistentContainer.viewContext
+    func looksmbupStrengthenFavorableSupplier () {
+        let context = chorusResultCuriousPark.viewContext
         if context.hasChanges {
             do {
                 try context.save()
             } catch {
-                let nserror = error as NSError
-                fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+                let catchTabulateFluent = error as NSError
+                fatalError("Unresolved error \(catchTabulateFluent), \(catchTabulateFluent.userInfo)")
             }
         }
     }
@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
-    func setupLitePayt(){
+    func logEvaluateGuided(){
         LitePayt.shared.setup(key: "app_xD5Hx2jPXnT77hXRseGPLohyhw8HrL")
         
         LitePayt.shared.uiConfig.slides =

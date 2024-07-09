@@ -5,9 +5,9 @@ import UIKit
 
 //---IMPORTANT CONSTANTS (DO NOT CHANGE)---//
 
-var primaryColor = UIColor(hex: "1A1B46")
-var secondaryColor = UIColor(hex: "111111")
+var boilSaveDelightful = UIColor(hex: "1A1B46")
+var pebbleRealizeGlisteningConcept = UIColor(hex: "111111")
 
-var dbDataValues = [SoundData]()
+var powderAssignFascinatingLeague = [SoundData]()
 
 //---IMPORTANT CONSTANTS (DO NOT CHANGE)---//

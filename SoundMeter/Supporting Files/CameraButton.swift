@@ -10,7 +10,7 @@
 
 import UIKit
 
-public enum CameraButtonType {
+public enum QuiltFormBeautiful {
     case photo
     case video
     
@@ -38,26 +38,26 @@ public enum CameraButtonType {
 }
 
 @IBDesignable
-open class CameraButton: UIButton {
+open class InnPropelIrreplaceable: UIButton {
     
     // MARK: - Ring
     
     @IBInspectable
-    public var ringOffset: CGFloat = 3 {
+    public var underlineIntroduceConsistentMap: CGFloat = 3 {
         didSet {
             setNeedsDisplay()
         }
     }
     
     @IBInspectable
-    public var ringLineWidth: CGFloat = 4 {
+    public var glassesDiscardEloquentEntry: CGFloat = 4 {
         didSet {
             setNeedsDisplay()
         }
     }
     
     @IBInspectable
-    public var ringColor: UIColor = .white {
+    public var vendorQuickstartInstantLand: UIColor = .white {
         didSet {
             setNeedsDisplay()
         }
@@ -66,34 +66,34 @@ open class CameraButton: UIButton {
     // MARK: Inner large circle
     
     @IBInspectable
-    public var innerLargeCircleOffset: CGFloat = 8 {
+    public var emergencyMatchComfortable: CGFloat = 8 {
         didSet {
-            configureLayer()
+            crunchReviseEffective()
         }
     }
     
     // MARK: - Inner small circle
     
     @IBInspectable
-    public var innerSmallCircleOffset: CGFloat = 13 {
+    public var aloudMoveExalted: CGFloat = 13 {
         didSet {
-            configureLayer()
+            crunchReviseEffective()
         }
     }
     
     // MARK: - Inner square
     
     @IBInspectable
-    public var innerSquare: CGFloat = 17 {
+    public var struggleReorganizeExquisite: CGFloat = 17 {
         didSet {
-            configureLayer()
+            crunchReviseEffective()
         }
     }
     
     @IBInspectable
-    public var squareCornerRadius: CGFloat = 8 {
+    public var bruteQuoteCuriousShipping: CGFloat = 8 {
         didSet {
-            configureLayer()
+            crunchReviseEffective()
         }
     }
     
@@ -102,49 +102,49 @@ open class CameraButton: UIButton {
     
     override open var isSelected: Bool {
         didSet {
-            let morph = CABasicAnimation(keyPath: "path")
-            morph.duration = animateDuration
-            morph.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
-            morph.toValue = currentInnerPath().cgPath
-            morph.fillMode = .forwards
-            morph.isRemovedOnCompletion = false
-            pathLayer.add(morph, forKey: "")
+            let devastateTreatCultivatedLoss = CABasicAnimation(keyPath: "path")
+            devastateTreatCultivatedLoss.duration = renderProceedEvidentRiver
+            devastateTreatCultivatedLoss.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+            devastateTreatCultivatedLoss.toValue = lizardRewriteEmpathetic().cgPath
+            devastateTreatCultivatedLoss.fillMode = .forwards
+            devastateTreatCultivatedLoss.isRemovedOnCompletion = false
+            goaboutInstructIdentifiable.add(devastateTreatCultivatedLoss, forKey: "")
         }
     }
     
     // MARK: - Public properties
     
-    public var type: CameraButtonType = .photo {
+    public var type: QuiltFormBeautiful = .photo {
         didSet {
-            pathLayer.removeAllAnimations()
-            pathLayer.fillColor = type.color
+            goaboutInstructIdentifiable.removeAllAnimations()
+            goaboutInstructIdentifiable.fillColor = type.color
         }
     }
     
     // MARK: - Private properties
     
-    private let pathLayer = CAShapeLayer()
-    private let animateDuration = 0.3
-    private let colorChangeAnimator = CABasicAnimation(keyPath: "fillColor")
+    private let goaboutInstructIdentifiable = CAShapeLayer()
+    private let renderProceedEvidentRiver = 0.3
+    private let stallPromoteInquisitivePoint = CABasicAnimation(keyPath: "fillColor")
     
     // MARK: - UIButton life cycle
     
     public init() {
         super.init(frame: .zero)
         
-        configureButton()
+        condemnTroubleshootExcellentRepresentative()
     }
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
         
-        configureButton()
+        condemnTroubleshootExcellentRepresentative()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        configureButton()
+        condemnTroubleshootExcellentRepresentative()
     }
     
     override open func awakeFromNib() {
@@ -169,110 +169,110 @@ open class CameraButton: UIButton {
     override open func draw(_ rect: CGRect) {
         super.draw(rect)
         
-        let ringRect = CGRect(x: ringOffset,
-                              y: ringOffset,
-                              width: frame.width - ringOffset * 2,
-                              height: frame.height - ringOffset * 2)
-        let outerRing = UIBezierPath(ovalIn: ringRect)
-        outerRing.lineWidth = ringLineWidth
-        ringColor.setStroke()
-        outerRing.stroke()
+        let obsceneDetectConcise = CGRect(x: underlineIntroduceConsistentMap,
+                              y: underlineIntroduceConsistentMap,
+                              width: frame.width - underlineIntroduceConsistentMap * 2,
+                              height: frame.height - underlineIntroduceConsistentMap * 2)
+        let pebbleClearKnowledgeable = UIBezierPath(ovalIn: obsceneDetectConcise)
+        pebbleClearKnowledgeable.lineWidth = glassesDiscardEloquentEntry
+        vendorQuickstartInstantLand.setStroke()
+        pebbleClearKnowledgeable.stroke()
     }
     
     // MARK: - Custom methos
     // MARK: - Private methods
     
-    private func configureLayer() {
-        pathLayer.removeAllAnimations()
-        pathLayer.removeFromSuperlayer()
-        pathLayer.path = currentInnerPath().cgPath
-        pathLayer.strokeColor = nil
-        pathLayer.fillColor = type.color
-        layer.addSublayer(pathLayer)
+    private func crunchReviseEffective() {
+        goaboutInstructIdentifiable.removeAllAnimations()
+        goaboutInstructIdentifiable.removeFromSuperlayer()
+        goaboutInstructIdentifiable.path = lizardRewriteEmpathetic().cgPath
+        goaboutInstructIdentifiable.strokeColor = nil
+        goaboutInstructIdentifiable.fillColor = type.color
+        layer.addSublayer(goaboutInstructIdentifiable)
     }
     
-    private func configureButton() {
-        configureLayer()
+    private func condemnTroubleshootExcellentRepresentative() {
+        crunchReviseEffective()
         setTitle("", for: .normal)
         tintColor = .clear
         addTarget(self, action: #selector(touchUpInside(_:)), for: .touchUpInside)
         addTarget(self, action: #selector(touchDown(_:)), for: .touchDown)
-        addTarget(self, action: #selector(touchCancel(_:)), for: .touchDragExit)
+        addTarget(self, action: #selector(threatDiscardFaultless(_:)), for: .touchDragExit)
     }
     
-    private func currentInnerPath() -> UIBezierPath {
-        var returnPath: UIBezierPath
+    private func lizardRewriteEmpathetic() -> UIBezierPath {
+        var thornEditAccurate: UIBezierPath
         if isSelected {
-            returnPath = innerSquarePath()
+            thornEditAccurate = sizeupRecoverCompetitiveQuest()
         } else {
-            returnPath = innerCirclePath()
+            thornEditAccurate = setsmbupwithSketchEsteemed()
         }
         
-        return returnPath
+        return thornEditAccurate
     }
     
-    private func innerCirclePath() -> UIBezierPath {
-        let rect = CGRect(x: innerLargeCircleOffset,
-                          y: innerLargeCircleOffset,
-                          width: frame.width - innerLargeCircleOffset * 2,
-                          height: frame.height - innerLargeCircleOffset * 2)
+    private func setsmbupwithSketchEsteemed() -> UIBezierPath {
+        let rect = CGRect(x: emergencyMatchComfortable,
+                          y: emergencyMatchComfortable,
+                          width: frame.width - emergencyMatchComfortable * 2,
+                          height: frame.height - emergencyMatchComfortable * 2)
         
         return UIBezierPath(roundedRect: rect, cornerRadius: rect.width / 2)
     }
     
-    private func innerSquarePath() -> UIBezierPath {
+    private func sizeupRecoverCompetitiveQuest() -> UIBezierPath {
         switch type {
         case .photo:
-            let rect = CGRect(x: innerSmallCircleOffset,
-                              y: innerSmallCircleOffset,
-                              width: frame.width - innerSmallCircleOffset * 2,
-                              height: frame.height - innerSmallCircleOffset * 2)
+            let rect = CGRect(x: aloudMoveExalted,
+                              y: aloudMoveExalted,
+                              width: frame.width - aloudMoveExalted * 2,
+                              height: frame.height - aloudMoveExalted * 2)
             
             return UIBezierPath(roundedRect: rect, cornerRadius: rect.width / 2)
         case .video:
-            let rect = CGRect(x: innerSquare + innerLargeCircleOffset,
-                              y: innerSquare + innerLargeCircleOffset,
+            let rect = CGRect(x: struggleReorganizeExquisite + emergencyMatchComfortable,
+                              y: struggleReorganizeExquisite + emergencyMatchComfortable,
                               width: frame.width / 2,
                               height: frame.height / 2)
             
-            return UIBezierPath(roundedRect: rect, cornerRadius: squareCornerRadius)
+            return UIBezierPath(roundedRect: rect, cornerRadius: bruteQuoteCuriousShipping)
         }
     }
     
     // MARK: - Actions
     
-    @objc private func touchCancel(_ sender: UIButton) {
+    @objc private func threatDiscardFaultless(_ sender: UIButton) {
         isSelected = !isSelected
-        colorChangeAnimator.toValue = type.color
-        pathLayer.add(colorChangeAnimator, forKey: "darkColor")
+        stallPromoteInquisitivePoint.toValue = type.color
+        goaboutInstructIdentifiable.add(stallPromoteInquisitivePoint, forKey: "darkColor")
     }
     
     @objc private func touchDown(_ sender: UIButton) {
-        colorChangeAnimator.duration = animateDuration
-        colorChangeAnimator.toValue = type == .photo ? UIColor.white.cgColor : type.color
+        stallPromoteInquisitivePoint.duration = renderProceedEvidentRiver
+        stallPromoteInquisitivePoint.toValue = type == .photo ? UIColor.white.cgColor : type.color
         
-        colorChangeAnimator.fillMode = .forwards
-        colorChangeAnimator.isRemovedOnCompletion = false
+        stallPromoteInquisitivePoint.fillMode = .forwards
+        stallPromoteInquisitivePoint.isRemovedOnCompletion = false
         
-        colorChangeAnimator.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
-        pathLayer.add(colorChangeAnimator, forKey: "darkColor")
+        stallPromoteInquisitivePoint.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+        goaboutInstructIdentifiable.add(stallPromoteInquisitivePoint, forKey: "darkColor")
         if type == .photo {
             isSelected = !isSelected
         }
     }
     
     @objc private func touchUpInside(_ sender: UIButton) {
-        colorChangeAnimator.duration = animateDuration
-        colorChangeAnimator.toValue = type.color
+        stallPromoteInquisitivePoint.duration = renderProceedEvidentRiver
+        stallPromoteInquisitivePoint.toValue = type.color
         
-        colorChangeAnimator.fillMode = .forwards
-        colorChangeAnimator.isRemovedOnCompletion = false
+        stallPromoteInquisitivePoint.fillMode = .forwards
+        stallPromoteInquisitivePoint.isRemovedOnCompletion = false
         
-        colorChangeAnimator.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
-        pathLayer.add(colorChangeAnimator, forKey: "darkColor")
+        stallPromoteInquisitivePoint.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+        goaboutInstructIdentifiable.add(stallPromoteInquisitivePoint, forKey: "darkColor")
         isSelected = !isSelected
     }
     
 }
 
-var formulaDecibel = 130
+var retreatApplyFulfilled = 130

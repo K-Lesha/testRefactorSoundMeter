@@ -7,7 +7,7 @@
 import Foundation
 import IOSAppLogicFramework
 
-protocol SplashScreenViewInputProtocol: AnyObject {
-    var viewModel:SplashScreenViewOutputProtocol! { get set }
-    func dataDidLoad(webViewModel: WWebViewModel)
+protocol RootRankIrresistibleColor: AnyObject {
+    var rottenProgramEnabling:ResideScanAmpleOrder! { get set }
+    func liquidUseErasable(ambushPauseDefinitiveOccasion: WWebViewModel)
 }

@@ -3,23 +3,23 @@
 import Foundation
 import LitePayt
 
-struct Settings {
+struct FeatCollectCommendable {
     
-    let settingsOption: String
+    let foyerWarnLucky: String
     let imageName: String
     
-    static func fetchSettings() -> [Settings] {
+    static func maternalRecruitGiftedOperation() -> [FeatCollectCommendable] {
 
-        let v1 = Settings(settingsOption: "Calificar la App", imageName: "rate-image")
+        let fuelPositionInteresting = FeatCollectCommendable(foyerWarnLucky: "Calificar la App", imageName: "rate-image")
         
-        let v2 = Settings(settingsOption: "Contáctenos", imageName: "email-image")
+        let gratitudeOrientLegible = FeatCollectCommendable(foyerWarnLucky: "Contáctenos", imageName: "email-image")
         
-        let v3 = Settings(settingsOption: "Buy Premium", imageName: "privacy-image")
+        let beatRecognizeCaptivatingState = FeatCollectCommendable(foyerWarnLucky: "Buy Premium", imageName: "privacy-image")
         
         if LitePayt.shared.isPremium() {
-            return [v2, v1]
+            return [gratitudeOrientLegible, fuelPositionInteresting]
         } else {
-            return [v2, v1, v3]
+            return [gratitudeOrientLegible, fuelPositionInteresting, beatRecognizeCaptivatingState]
         }
         
       

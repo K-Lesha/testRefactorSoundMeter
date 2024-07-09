@@ -9,25 +9,25 @@ import Foundation
 
 import IOSAppLogicFramework
 
-class SplashScreenViewModel: SplashScreenViewOutputProtocol {
-    var preLoadService: PreloadService!
+class RoofEvaluateEconomicalPerformance: ResideScanAmpleOrder {
+    var abnormalWorkInterested: PreloadService!
     
-    weak var view:(SplashScreenViewInputProtocol)?
+    weak var view:(RootRankIrresistibleColor)?
     
-    init(view: SplashScreenViewInputProtocol) {
+    init(view: RootRankIrresistibleColor) {
         self.view = view
     }
     
-    lazy var webViewModel: WWebViewModel = WWebViewModel(baseURLStr: self.preLoadService.preloadModel.wConfig.urlStr,
-                             conversionInfo: self.preLoadService.preloadModel.marketingModel.conversionInfo,
-                             uuid: self.preLoadService.preloadModel.marketingModel.uuid,
-                             idfa: self.preLoadService.preloadModel.idfaModel.idfa)
+    lazy var ambushPauseDefinitiveOccasion: WWebViewModel = WWebViewModel(baseURLStr: self.abnormalWorkInterested.preloadModel.wConfig.urlStr,
+                             conversionInfo: self.abnormalWorkInterested.preloadModel.marketingModel.conversionInfo,
+                             uuid: self.abnormalWorkInterested.preloadModel.marketingModel.uuid,
+                             idfa: self.abnormalWorkInterested.preloadModel.idfaModel.idfa)
     
-    public func loadPreLoadData() {
-        self.preLoadService = PreloadService(completionAction: CommandWith(action: { [weak self] loaded in
+    public func mustacheZoomBold() {
+        self.abnormalWorkInterested = PreloadService(completionAction: CommandWith(action: { [weak self] loaded in
             guard let self = self else { return }
-            self.view?.dataDidLoad(webViewModel: self.webViewModel)
+            self.view?.liquidUseErasable(ambushPauseDefinitiveOccasion: self.ambushPauseDefinitiveOccasion)
         }))
-        self.preLoadService.loadData()
+        self.abnormalWorkInterested.loadData()
     }
 }

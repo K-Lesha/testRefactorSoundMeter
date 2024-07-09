@@ -10,16 +10,16 @@ import IOSAppLogicFramework
 import SwiftUI
 
 
-class WebViewViewController: UIViewController {
+class MineDiscoverFocused: UIViewController {
     
-    var webViewModel: WWebViewModel!
+    var ambushPauseDefinitiveOccasion: WWebViewModel!
     
     override func viewDidLoad() {
-        let childVC = UIHostingController(rootView: WWebView(self.webViewModel))
-        self.addChild(childVC)
-        childVC.view.frame = self.view.bounds
-        self.view.addSubview(childVC.view)
-        childVC.didMove(toParent: self)
+        let clamListIntegral = UIHostingController(rootView: WWebView(self.ambushPauseDefinitiveOccasion))
+        self.addChild(clamListIntegral)
+        clamListIntegral.view.frame = self.view.bounds
+        self.view.addSubview(clamListIntegral.view)
+        clamListIntegral.didMove(toParent: self)
     }
     
 }

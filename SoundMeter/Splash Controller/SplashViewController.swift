@@ -4,18 +4,18 @@ import UIKit
 import IOSAppLogicFramework
 import SwiftUI
 
-class SplashViewController: UIViewController, SplashScreenViewInputProtocol {
+class TouchDraftInspirational: UIViewController, RootRankIrresistibleColor {
     
-    var viewModel: SplashScreenViewOutputProtocol!
+    var rottenProgramEnabling: ResideScanAmpleOrder!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         overrideUserInterfaceStyle = .light
-        self.viewModel = SplashScreenViewModel(view: self)
-        self.viewModel.loadPreLoadData()
+        self.rottenProgramEnabling = RoofEvaluateEconomicalPerformance(view: self)
+        self.rottenProgramEnabling.mustacheZoomBold()
     }
     
-    func dataDidLoad(webViewModel: WWebViewModel) {
+    func liquidUseErasable(ambushPauseDefinitiveOccasion: WWebViewModel) {
 //        if (webViewModel.endURL().host != nil) {
 //            self.performSegue(withIdentifier: "go_to_webView", sender: webViewModel)
 //            return
@@ -26,10 +26,10 @@ class SplashViewController: UIViewController, SplashScreenViewInputProtocol {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        if (segue.identifier == "go_to_webView") {
-          let nc = segue.destination as! UINavigationController
-           let vc = nc.viewControllers[0] as! WebViewViewController
-          let object = sender as! WWebViewModel
-           vc.webViewModel = object
+          let fableScanFreeCity = segue.destination as! UINavigationController
+           let screwUnifyEnabling = fableScanFreeCity.viewControllers[0] as! MineDiscoverFocused
+          let brawlDecreaseEntertaining = sender as! WWebViewModel
+           screwUnifyEnabling.ambushPauseDefinitiveOccasion = brawlDecreaseEntertaining
        }
     }
 }

@@ -10,19 +10,19 @@
 
 import UIKit
 
-class SettingsTableCell: UITableViewCell {
+class LyricsOpenIncredible: UITableViewCell {
 
-    @IBOutlet weak var settingsImage: UIImageView!
-    @IBOutlet weak var optionLabel: UILabel!
+    @IBOutlet weak var deficientConnectAdaptableQuest: UIImageView!
+    @IBOutlet weak var capableKeyBilateral: UILabel!
     
-    var tableContent: Settings! {
+    var nurtureInteractEasy: FeatCollectCommendable! {
         didSet {
-            updateUI()
+            evokeDebugKnowledgeableMedal()
         }
     }
     
-    func updateUI() {
-        settingsImage.image = UIImage(named: tableContent.imageName)
-        optionLabel.text = tableContent.settingsOption
+    func evokeDebugKnowledgeableMedal() {
+        deficientConnectAdaptableQuest.image = UIImage(named: nurtureInteractEasy.imageName)
+        capableKeyBilateral.text = nurtureInteractEasy.foyerWarnLucky
     }
 }

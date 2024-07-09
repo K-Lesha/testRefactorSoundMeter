@@ -11,15 +11,15 @@
 import UIKit
 import MKRingProgressView
 
-class RecordsCell: UITableViewCell {
+class CountrysideRewindInternal: UITableViewCell {
     
-    @IBOutlet weak var maximumLabel: UILabel!
-    @IBOutlet weak var minimumLabel: UILabel!
-    @IBOutlet weak var averagelLabel: UILabel!
-    @IBOutlet weak var maximumProgressView: RingProgressView!
-    @IBOutlet weak var minimumProgressView: RingProgressView!
-    @IBOutlet weak var averageProgressView: RingProgressView!
-    @IBOutlet weak var datelabel: UILabel!
+    @IBOutlet weak var proceedAssessAppreciative: UILabel!
+    @IBOutlet weak var uniqueDevelopConciseSport: UILabel!
+    @IBOutlet weak var witherRecoverContemporaryMeeting: UILabel!
+    @IBOutlet weak var cautionExpandLucky: RingProgressView!
+    @IBOutlet weak var scantExplainImpressive: RingProgressView!
+    @IBOutlet weak var contractOrderEffective: RingProgressView!
+    @IBOutlet weak var lookaroundUnpackLegendaryAircraft: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
